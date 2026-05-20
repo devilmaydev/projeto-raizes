@@ -148,6 +148,10 @@ default preferences.afm_time = 15
 
 define config.save_directory = "Raizes-1777244127"
 
+## Autosave só em checkpoints ($ jussara_checkpoint()), não em intervalo automático.
+define config.autosave_frequency = None
+define config.autosave_slots = 10
+
 
 ## Icon ########################################################################
 ##

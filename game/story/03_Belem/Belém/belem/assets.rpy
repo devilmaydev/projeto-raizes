@@ -2,6 +2,7 @@
 
 image bg aeroporto = im.Scale("images/Aeroporto.jpg", 1920, 1080)
 image bg universidade_ufpa = im.Scale("images/Universidade Federal do Pará.jpg", 1920, 1080)
+image bg portao_iii_ufpa = im.Scale("images/Portão III da UFPA.jpg", 1920, 1080)
 image bg mirante_rio = im.Scale("images/Mirante do Rio.jpg", 1920, 1080)
 
 image jussara idle = "images/Jussara Idle.png"

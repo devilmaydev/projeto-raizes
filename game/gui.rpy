@@ -141,6 +141,10 @@ define gui.dialogue_ypos = 75
 ## The maximum width of dialogue text, in pixels.
 define gui.dialogue_width = 1116
 
+## Altura da área com scroll (textbox menos margem superior e faixa do quick menu).
+define gui.dialogue_quick_band = 54
+define gui.dialogue_viewport_height = gui.textbox_height - gui.dialogue_ypos - gui.dialogue_quick_band
+
 ## The horizontal alignment of the dialogue text. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
 define gui.dialogue_text_xalign = 0.0
@@ -449,7 +453,7 @@ init python:
         gui.name_xpos = 120
         gui.dialogue_xpos = 135
         gui.dialogue_width = 1650
-
+        gui.dialogue_viewport_height = gui.textbox_height - gui.dialogue_ypos - gui.dialogue_quick_band
         ## Change the size and spacing of various things.
         gui.slider_size = 54
 

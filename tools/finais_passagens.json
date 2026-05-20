@@ -1,0 +1,833 @@
+{
+  "startnode": 1,
+  "passages": [
+    {
+      "pid": 1,
+      "name": "De Volda Ao Laboratório",
+      "slug": "de_volta_ao_laboratorio",
+      "links": [
+        "Foi incrível!",
+        "Terrrível",
+        "Nada de novo"
+      ],
+      "text": "Olá! Bem vindo de volta! Como foi a experiência em Belém?"
+    },
+    {
+      "pid": 2,
+      "name": "Foi incrível!",
+      "slug": "foi_incrivel",
+      "links": [
+        "Sim, estou",
+        "Não estou",
+        "Ih, esqueci!"
+      ],
+      "text": "Que bom! Fico feliz que tenha aproveitado a viagem! Você está com o artefato?"
+    },
+    {
+      "pid": 3,
+      "name": "Terrrível",
+      "slug": "terrrivel",
+      "links": [
+        "Você me fez tomar de uma garota as cinzas da sua avó",
+        "ô cidade quente do cacete...",
+        "Queria ter aproveitado mais"
+      ],
+      "text": "Sério? Nossa, mas por quê?"
+    },
+    {
+      "pid": 4,
+      "name": "Nada de novo",
+      "slug": "nada_de_novo",
+      "links": [
+        "Ih, esqueci!",
+        "Sim, estou",
+        "Não estou"
+      ],
+      "text": "Hmmm.... ócios do ofício, não é memso? Então vamos direto ao ponto: está com o artefato?"
+    },
+    {
+      "pid": 5,
+      "name": "Sim, estou",
+      "slug": "sim_estou",
+      "links": [
+        "É pra já",
+        "Primeiro me conta o que você vai fazer"
+      ],
+      "text": "Ótimo! Eu sabia que podia contar com você. Pode colocá-lo sobre a mesa (nessa parte poderia ter um elemento de point n' click para posicionar o objeto na mesa)"
+    },
+    {
+      "pid": 6,
+      "name": "Não estou",
+      "slug": "nao_estou",
+      "links": [
+        "Sério",
+        "Zoa, tô sim"
+      ],
+      "text": "Como não? Sério?"
+    },
+    {
+      "pid": 7,
+      "name": "Ih, esqueci!",
+      "slug": "ih_esqueci",
+      "links": [
+        "Brincadeira",
+        "Pior que é"
+      ],
+      "text": "Sério?!"
+    },
+    {
+      "pid": 8,
+      "name": "Brincadeira",
+      "slug": "brincadeira",
+      "links": [
+        "É pra já",
+        "Primeiro me conta o que você vai fazer"
+      ],
+      "text": "Hahahaha você e o seu senso de humor! Bom, pode colocá-lo sobre a minha mesa"
+    },
+    {
+      "pid": 9,
+      "name": "Pior que é",
+      "slug": "pior_que_e",
+      "links": [
+        "No aeroporto de Guarulhos",
+        "Em Belém"
+      ],
+      "text": "Onde exatamente você esqueceu?"
+    },
+    {
+      "pid": 10,
+      "name": "É pra já",
+      "slug": "e_pra_ja",
+      "links": [
+        "(objeto posicionado)"
+      ],
+      "text": "Muito bem! Então tire ele de sua mochila e posicione sobre a tabuleta na mesa;\n\n(interação de point n' click e point n' drag)"
+    },
+    {
+      "pid": 11,
+      "name": "Primeiro me conta o que você vai fazer",
+      "slug": "primeiro_me_conta_o_que_voce_vai_fazer",
+      "links": [
+        "Lembro",
+        "Fala mais sobre esse simbolismo",
+        "O que isso tem a ver com o que você vai fazer?"
+      ],
+      "text": "Lembra que eu tinha falado sobre o deus egípcio Tot, certo? O de cabeça de Ibis, aquele pássaro de bico fino, que representa o discernimento da tomada de uma escolha...."
+    },
+    {
+      "pid": 12,
+      "name": "Você me fez tomar de uma garota as cinzas da sua avó",
+      "slug": "voce_me_fez_tomar_de_uma_garota_as_cinzas_da_sua_avo",
+      "links": [
+        "Não finja que não sabia...",
+        "Sim, Sr. Óbvio"
+      ],
+      "text": "Que história é essa de \"cinzas da avó\"? Então o artefato é uma urna funerária?"
+    },
+    {
+      "pid": 13,
+      "name": "ô cidade quente do cacete...",
+      "slug": "a_cidade_quente_do_cacete",
+      "links": [
+        "Pelo menos ajudamos a combater parte da causa dessas mudanças climáticas",
+        "Por mim não volto lá nunca mais..."
+      ],
+      "text": "Ah, sem dúvida Belém é um dos lugares mais quentes do mundo, isso é..."
+    },
+    {
+      "pid": 14,
+      "name": "Queria ter aproveitado mais",
+      "slug": "queria_ter_aproveitado_mais",
+      "links": [
+        "Claro! Com certeza vou voltar lá",
+        "Como assim &quot;se é que &#39;lá&#39; ainda vai existir&quot;?"
+      ],
+      "text": "Ah, entendo... Mas tudo bem, você poderá voltar lá mais vezes, se é que \"lá\" ainda vai existir..."
+    },
+    {
+      "pid": 15,
+      "name": "Claro! Com certeza vou voltar lá",
+      "slug": "claro_com_certeza_vou_voltar_la",
+      "links": [
+        "Do que diabos você tá falando?",
+        "Como isso seria possível???"
+      ],
+      "text": "Um dia, talvez, talvez você até possa nascer lá, ou quem sabe num lugar parecido, ou até mesmo um lugar completamente novo, quem sabe?"
+    },
+    {
+      "pid": 16,
+      "name": "Como assim &quot;se é que &#39;lá&#39; ainda vai existir&quot;?",
+      "slug": "como_assim_quot_se_e_que_39_la_39_ainda_vai_existir_quot",
+      "links": [
+        "Interessante, conte-me mais",
+        "Vamos voltar ao artefato"
+      ],
+      "text": "Bom, existência e não existência são conceitos complexos.... Sabe, tudo que existe é parte de um único cosmos..."
+    },
+    {
+      "pid": 17,
+      "name": "Sim, Sr. Óbvio",
+      "slug": "sim_sr_obvio",
+      "links": [
+        "Eu sabia que não podia confiar em você",
+        "Então tá, e agora?"
+      ],
+      "text": "Sério? Nossa, eu sinto muito. Eu não fazia ideia..."
+    },
+    {
+      "pid": 18,
+      "name": "Não finja que não sabia...",
+      "slug": "nao_finja_que_nao_sabia",
+      "links": [
+        "Não me interessa",
+        "Como?"
+      ],
+      "text": "Olha, eu realmente não sabia. Quer saber como rastreei o artefato?"
+    },
+    {
+      "pid": 19,
+      "name": "Pelo menos ajudamos a combater parte da causa dessas mudanças climáticas",
+      "slug": "pelo_menos_ajudamos_a_combater_parte_da_causa_dessas_mudancas_climaticas",
+      "links": [],
+      "text": ""
+    },
+    {
+      "pid": 20,
+      "name": "Por mim não volto lá nunca mais...",
+      "slug": "por_mim_nao_volto_la_nunca_mais",
+      "links": [
+        "Do que diabos você tá falando?"
+      ],
+      "text": "É, pode ter certeza que nunca vai voltar mesmo...."
+    },
+    {
+      "pid": 21,
+      "name": "No aeroporto de Guarulhos",
+      "slug": "no_aeroporto_de_guarulhos",
+      "links": [
+        "Fechou!",
+        "Ai que preguiça..."
+      ],
+      "text": "Jura? Nossa! O artefato corre perigo de sumiço!\n\nMas, calma, conhecendo bem a companhia onde pegamos os vôos, eles devem ter guardado no achados e perdidos.\n\nSó precisamos ir para o aeroporto imediatamente. Arrume suas coisas e vamos até Guarulhos."
+    },
+    {
+      "pid": 22,
+      "name": "Em Belém",
+      "slug": "em_belem",
+      "links": [
+        "Fechou!",
+        "Ai que preguiça..."
+      ],
+      "text": "Ai meu Deus! Precisamos voltar para buscá-lo imediatamente! Rápido, arrume suas coisas que vou deixá-lo em Guarulhos agora mesmo!"
+    },
+    {
+      "pid": 23,
+      "name": "Fechou!",
+      "slug": "fechou",
+      "links": [
+        "De volta ao Aeroporto de Guarulhos",
+        "De volta à Belém"
+      ],
+      "text": ""
+    },
+    {
+      "pid": 24,
+      "name": "Ai que preguiça...",
+      "slug": "ai_que_preguica",
+      "links": [
+        "Acho que eu ter esquecido foi uma intervenção divina...",
+        "Vai buscar você sozinho!",
+        "Entendo..."
+      ],
+      "text": "Olha, você entende que só estamos indo porque você esqueceu o artefato, né?"
+    },
+    {
+      "pid": 25,
+      "name": "Acho que eu ter esquecido foi uma intervenção divina...",
+      "slug": "acho_que_eu_ter_esquecido_foi_uma_intervencao_divina",
+      "links": [
+        "Você me fez tomar de uma garota as cinzas da sua avó",
+        "Nada não, prossiga"
+      ],
+      "text": "Por que acredita nisso?"
+    },
+    {
+      "pid": 26,
+      "name": "Vai buscar você sozinho!",
+      "slug": "vai_buscar_voce_sozinho",
+      "links": [
+        "Tô",
+        "Zoas"
+      ],
+      "text": "Você está falando sério?"
+    },
+    {
+      "pid": 27,
+      "name": "Entendo...",
+      "slug": "entendo",
+      "links": [
+        "Fechou!",
+        "Vai buscar você sozinho!"
+      ],
+      "text": "Tudo bem, desculpe o tom mais firme. Graças a Deus ainda dá tempo de ir buscarmos."
+    },
+    {
+      "pid": 28,
+      "name": "Do que diabos você tá falando?",
+      "slug": "do_que_diabos_voce_ta_falando",
+      "links": [
+        "Lembro",
+        "Fala mais sobre esse simbolismo"
+      ],
+      "text": "Lembra que eu tinha falado sobre o deus egípcio Tot, certo? O de cabeça de Ibis, aquele pássaro de bico fino, que representa o discernimento da tomada de uma escolha...."
+    },
+    {
+      "pid": 29,
+      "name": "Como isso seria possível???",
+      "slug": "como_isso_seria_possivel",
+      "links": [
+        "Lembro",
+        "Fala mais sobre esse simbolismo"
+      ],
+      "text": "Lembra que eu tinha falado sobre o deus egípcio Tot, certo? O de cabeça de Ibis, aquele pássaro de bico fino, que representa o discernimento da tomada de uma escolha...."
+    },
+    {
+      "pid": 30,
+      "name": "(objeto posicionado)",
+      "slug": "objeto_posicionado",
+      "links": [
+        "Se for o artefato errado",
+        "Se for o artefato certo"
+      ],
+      "text": ""
+    },
+    {
+      "pid": 31,
+      "name": "Nada não, prossiga",
+      "slug": "nada_nao_prossiga",
+      "links": [
+        "Ok"
+      ],
+      "text": "Rum.. Então que não percamos mais tempo! Arrume Suas coisas e vamos agora mesmo até o aeroporto!"
+    },
+    {
+      "pid": 32,
+      "name": "De volta ao Aeroporto de Guarulhos",
+      "slug": "de_volta_ao_aeroporto_de_guarulhos",
+      "links": [],
+      "text": ""
+    },
+    {
+      "pid": 33,
+      "name": "De volta à Belém",
+      "slug": "de_volta_a_belem",
+      "links": [],
+      "text": "(daqui se segue como se você tivesse voltado sozinho no Twine \"Alfândega\")"
+    },
+    {
+      "pid": 34,
+      "name": "Tô",
+      "slug": "to",
+      "links": [
+        "Ok",
+        "Dane-se"
+      ],
+      "text": "Me entristece muito o fato de você não se responsabilizar pela sua desplicência. O que a Jussara ia pensar sabendo que você não zelou pelo objeto dela?\nOk! Vamos buscar\n\n[["
+    },
+    {
+      "pid": 35,
+      "name": "Zoas",
+      "slug": "zoas",
+      "links": [
+        "Ok"
+      ],
+      "text": "Então que não percamos mais tempo! Arrume Suas coisas e vamos agora mesmo até o aeroporto!"
+    },
+    {
+      "pid": 36,
+      "name": "Ok",
+      "slug": "ok",
+      "links": [
+        "De volta ao Aeroporto de Guarulhos",
+        "De volta à Belém"
+      ],
+      "text": ""
+    },
+    {
+      "pid": 37,
+      "name": "Dane-se",
+      "slug": "dane_se",
+      "links": [
+        "➞"
+      ],
+      "text": "Como é que é? Bem, já que é assim, está dispensado do projeto. Agradecemos sua participação, mas não podemos tolerar esse comportamento.\n\nTe desenho o melhor na sua caminhada."
+    },
+    {
+      "pid": 38,
+      "name": "Interessante, conte-me mais",
+      "slug": "interessante_conte_me_mais",
+      "links": [
+        "Lembro",
+        "Fala mais sobre esse simbolismo"
+      ],
+      "text": "Lembra que eu tinha falado sobre o deus egípcio Tot, certo? O de cabeça de Ibis, aquele pássaro de bico fino, que representa o discernimento da tomada de uma escolha...."
+    },
+    {
+      "pid": 39,
+      "name": "Vamos voltar ao artefato",
+      "slug": "vamos_voltar_ao_artefato",
+      "links": [
+        "(objeto posicionado)"
+      ],
+      "text": "Muito bem! Então tire ele de sua mochila e posicione sobre a tabulera na mesa\n\n(interação de point n' click e point n' drag)"
+    },
+    {
+      "pid": 40,
+      "name": "Zoa, tô sim",
+      "slug": "zoa_to_sim",
+      "links": [
+        "É pra já",
+        "Primeiro me conta o que você vai fazer"
+      ],
+      "text": "Ótimo! Eu sabia que podia contar com você. Pode colocá-lo sobre a mesa (nessa parte poderia ter um elemento de point n' click para posicionar o objeto na mesa)"
+    },
+    {
+      "pid": 41,
+      "name": "Sério",
+      "slug": "serio",
+      "links": [
+        "Esqueci",
+        "Não trouxe de propósito"
+      ],
+      "text": "O que houve?"
+    },
+    {
+      "pid": 42,
+      "name": "➞",
+      "slug": "game_over_finais",
+      "links": [
+        "Sim",
+        "Não"
+      ],
+      "text": "Game Over\n\nContinuar?"
+    },
+    {
+      "pid": 43,
+      "name": "Sim",
+      "slug": "sim",
+      "links": [
+        "De Volda Ao Laboratório"
+      ],
+      "text": ""
+    },
+    {
+      "pid": 44,
+      "name": "Não",
+      "slug": "nao",
+      "links": [],
+      "text": "Obrigado por jogar!"
+    },
+    {
+      "pid": 45,
+      "name": "Esqueci",
+      "slug": "esqueci",
+      "links": [
+        "No aeroporto de Guarulhos",
+        "Em Belém"
+      ],
+      "text": "Onde exatamente você esqueceu?"
+    },
+    {
+      "pid": 46,
+      "name": "Não trouxe de propósito",
+      "slug": "nao_trouxe_de_proposito",
+      "links": [
+        "Você me fez tomar de uma garota as cinzas da sua avó",
+        "Sou vida lôca"
+      ],
+      "text": "E por quê?"
+    },
+    {
+      "pid": 47,
+      "name": "Sou vida lôca",
+      "slug": "sou_vida_loca",
+      "links": [
+        "Tô de saco cheio",
+        "Esqueci"
+      ],
+      "text": "Olha, isso não combina muito com o comportamento que você havia apresentado antes de começarmos o projeto. Tá tudo bem?\n\n o artefato, na verdade"
+    },
+    {
+      "pid": 48,
+      "name": "Tô de saco cheio",
+      "slug": "to_de_saco_cheio",
+      "links": [
+        "Dane-se",
+        "Na verdade, aconteceu algo..."
+      ],
+      "text": "Calma, às vezes o trabalho pode ser exaustivo, mas com o tempo pegamos o rítmo."
+    },
+    {
+      "pid": 49,
+      "name": "Na verdade, aconteceu algo...",
+      "slug": "na_verdade_aconteceu_algo",
+      "links": [
+        "Esqueci"
+      ],
+      "text": "O que?\n\n  o artefato."
+    },
+    {
+      "pid": 50,
+      "name": "Lembro",
+      "slug": "lembro",
+      "links": [
+        "Prossiga"
+      ],
+      "text": "Esse deus Tot, diferentemente dos outros deuses egípcios, foi baseado em um homem de carne e osso que viveu entre nós."
+    },
+    {
+      "pid": 51,
+      "name": "Fala mais sobre esse simbolismo",
+      "slug": "fala_mais_sobre_esse_simbolismo",
+      "links": [
+        "Prossiga"
+      ],
+      "text": "Tot representa a inteligência na sua origem da palavra, intelligere, que significa \"escolher entre\", ou seja, tomar uma decisão sábia.\n\nO pássaro íbis com seu bico fino pinça dentre muitas presas aquela que ele quer.\n\nEsse deus Tot, diferentemente dos outros deuses egípcios, foi baseado em um homem de carne e osso que viveu entre nós."
+    },
+    {
+      "pid": 52,
+      "name": "O que isso tem a ver com o que você vai fazer?",
+      "slug": "o_que_isso_tem_a_ver_com_o_que_voce_vai_fazer",
+      "links": [
+        "Prossiga"
+      ],
+      "text": "Tudo! E logo você entenderá. Esse deus Tot, diferentemente dos outros deuses egípcios, foi baseado em um homem de carne e osso que viveu entre nós."
+    },
+    {
+      "pid": 53,
+      "name": "Não me interessa",
+      "slug": "nao_me_interessa",
+      "links": [
+        "Não mesmo",
+        "Vou dar uma chance"
+      ],
+      "text": "Pelo menos me deixar explicar o que vamos fazer com o artefato!\n\nTá!"
+    },
+    {
+      "pid": 54,
+      "name": "Como?",
+      "slug": "como",
+      "links": [
+        "Isso não explcica como sabe tanto sobre a Jussara",
+        "Então tá, e agora?"
+      ],
+      "text": "Essa tabuleta é um arfeta gêmeo. Ela me mostrou onde estaraia o outro artefato através do  mapa de luzes que ele projeta. Mas não mostra exatamente como o artefato se parece."
+    },
+    {
+      "pid": 55,
+      "name": "Isso não explcica como sabe tanto sobre a Jussara",
+      "slug": "isso_nao_explcica_como_sabe_tanto_sobre_a_jussara",
+      "links": [
+        "Eu sabia que não podia confiar em você",
+        "Então tá, e agora?"
+      ],
+      "text": "Okay, após obter a localização, eu fui atrás dos meus contatos na UFPA e consegui com que uma pessoa levantasse os dados que eu precisava para achar a portadora."
+    },
+    {
+      "pid": 56,
+      "name": "Então tá, e agora?",
+      "slug": "entao_ta_e_agora",
+      "links": [
+        "Lembro",
+        "Fala mais sobre esse simbolismo"
+      ],
+      "text": "Lembra que eu tinha falado sobre o deus egípcio Tot, certo? O de cabeça de Ibis, aquele pássaro de bico fino, que representa o discernimento da tomada de uma escolha...."
+    },
+    {
+      "pid": 57,
+      "name": "Eu sabia que não podia confiar em você",
+      "slug": "eu_sabia_que_nao_podia_confiar_em_voce",
+      "links": [
+        "Vou dar uma chance",
+        "Não mesmo"
+      ],
+      "text": "Calma! Pelo menos me deixa explicar o que vamos fazer com o artefato"
+    },
+    {
+      "pid": 58,
+      "name": "Não mesmo",
+      "slug": "nao_mesmo",
+      "links": [
+        "Pode ficar",
+        "Vou levar comigo de volta pra Jussara"
+      ],
+      "text": "Certo... Pode pelo menos deixar o artefato, por favor?"
+    },
+    {
+      "pid": 59,
+      "name": "Se for o artefato errado",
+      "slug": "se_for_o_artefato_errado",
+      "links": [
+        "Vou voltar lá e pegar o certo!",
+        "Eu sabia que era balela"
+      ],
+      "text": "Hmmm... parece que este não é o nosso artefato."
+    },
+    {
+      "pid": 60,
+      "name": "Se for o artefato certo",
+      "slug": "se_for_o_artefato_certo",
+      "links": [
+        "Sim, é o máximo",
+        "O que vai fazer agora?",
+        "Podemos voltar ao normal agora?"
+      ],
+      "text": "(A Realidade se transforma e a direção de arte muda)\n\nEstá acontecendo! Estamos mudando a realidade!! Não é o máximo?"
+    },
+    {
+      "pid": 61,
+      "name": "Vou voltar lá e pegar o certo!",
+      "slug": "vou_voltar_la_e_pegar_o_certo",
+      "links": [],
+      "text": "Então partiremos agora imediatamente para o Aeroporto!"
+    },
+    {
+      "pid": 62,
+      "name": "Eu sabia que era balela",
+      "slug": "eu_sabia_que_era_balela",
+      "links": [
+        "Dane-se",
+        "Vou voltar lá e pegar o certo!"
+      ],
+      "text": "Não é balela! Você viu a tabuleta brilhando...\n\n \nTá bom!"
+    },
+    {
+      "pid": 63,
+      "name": "Prossiga",
+      "slug": "prossiga",
+      "links": [
+        "Prosseguir"
+      ],
+      "text": "Esse homem era chamado de Hermes. Ele era o mestre entre os mestre iniciáticos, considerado três vezes mestre, o que gerou o apelido Trismegisto.\n\nEle também é Hermes na mitologia grega e Mercúrio na romana. Sempre sendo o deus mensageiro entre céu e terra.\n\nO Caduceu de Mercúrio, aquele cajado alado com duas serpentes se intersectando, é um símbolo que data mais de 5000 a.C, encontrado numa taça suméria."
+    },
+    {
+      "pid": 64,
+      "name": "O que vai fazer agora?",
+      "slug": "o_que_vai_fazer_agora",
+      "links": [
+        "Lembro sim",
+        "Fala mais do simbolismo",
+        "Fala logo o que vai fazer!"
+      ],
+      "text": "Lembra que eu tinha falado sobre o deus egípcio Tot, certo? O de cabeça de Ibis, aquele pássaro de bico fino, que representa o discernimento da tomada de uma escolha...."
+    },
+    {
+      "pid": 65,
+      "name": "Sim, é o máximo",
+      "slug": "sim_e_o_maximo",
+      "links": [
+        "Reunificação?"
+      ],
+      "text": "Agora poderemos recomeçar tudo através da reunificação!"
+    },
+    {
+      "pid": 66,
+      "name": "Podemos voltar ao normal agora?",
+      "slug": "podemos_voltar_ao_normal_agora",
+      "links": [
+        "Como assim?",
+        "Remover o artefato da tabuleta"
+      ],
+      "text": "Sinto muito, mais não voltaremos ao normal! Na verdade, o normal será reinventado."
+    },
+    {
+      "pid": 67,
+      "name": "Prosseguir",
+      "slug": "prosseguir",
+      "links": [
+        "...."
+      ],
+      "text": "Esse homem, se é que foi realmente um homem, formulou 7 princípios herméticos universais.\n\nHermético, inslusive, vem de Hermes. Algo que é fechado, de modo que nada o escapa! Da mesma forma que sempre foi o conhecimento hermético entre seus iniciados: fechado.\n\nO principal desses princíos é o primeiro, o de Mentalismo que diz \"tudo é mente, o universo é mental\""
+    },
+    {
+      "pid": 68,
+      "name": "Vou dar uma chance",
+      "slug": "vou_dar_uma_chance",
+      "links": [
+        "Lembro",
+        "Fala mais sobre esse simbolismo"
+      ],
+      "text": "Lembra que eu tinha falado sobre o deus egípcio Tot, certo? O de cabeça de Ibis, aquele pássaro de bico fino, que representa o discernimento da tomada de uma escolha...."
+    },
+    {
+      "pid": 69,
+      "name": "Lembro sim",
+      "slug": "lembro_sim",
+      "links": [
+        "Conte mais"
+      ],
+      "text": "Esse deus Tot, diferentemente dos outros deuses egípcios, foi baseado em um homem de carne e osso que viveu entre nós."
+    },
+    {
+      "pid": 70,
+      "name": "Fala mais do simbolismo",
+      "slug": "fala_mais_do_simbolismo",
+      "links": [
+        "Conte mais"
+      ],
+      "text": "Tot representa a inteligência na sua origem da palavra, intelligere, que significa \"escolher entre\", ou seja, tomar uma decisão sábia.\n\nO pássaro íbis com seu bico fino pinça dentre muitas presas aquela que ele quer.\n\nEsse deus Tot, diferentemente dos outros deuses egípcios, foi baseado em um homem de carne e osso que viveu entre nós."
+    },
+    {
+      "pid": 71,
+      "name": "Conte mais",
+      "slug": "conte_mais",
+      "links": [
+        "Seguir"
+      ],
+      "text": "Esse homem era chamado de Hermes. Ele era o mestre entre os mestre iniciáticos, considerado três vezes mestre, o que gerou o apelido Trismegisto.\n\nEle também é Hermes na mitologia grega e Mercúrio na romana. Sempre sendo o deus mensageiro entre céu e terra.\n\nO Caduceu de Mercúrio, aquele cajado alado com duas serpentes se intersectando, é um símbolo que data mais de 5000 a.C, encontrado numa taça suméria."
+    },
+    {
+      "pid": 72,
+      "name": "Seguir",
+      "slug": "seguir",
+      "links": [
+        "..."
+      ],
+      "text": "Esse homem, se é que foi realmente um homem, formulou 7 princípios herméticos universais.\n\nHermético, inslusive, vem de Hermes. Algo que é fechado, de modo que nada o escapa! Da mesma forma que sempre foi o conhecimento hermético entre seus iniciados: fechado.\n\nO principal desses princíos é o primeiro, o de Mentalismo que diz \"tudo é mente, o universo é mental\""
+    },
+    {
+      "pid": 73,
+      "name": "Reunificação?",
+      "slug": "reunificacao",
+      "links": [
+        "Lembro sim",
+        "Fala mais do simbolismo"
+      ],
+      "text": "Sim! Lembra que eu tinha falado sobre o deus egípcio Tot, certo? O de cabeça de Ibis, aquele pássaro de bico fino, que representa o discernimento da tomada de uma escolha...."
+    },
+    {
+      "pid": 74,
+      "name": "Pode ficar",
+      "slug": "pode_ficar",
+      "links": [
+        "Até"
+      ],
+      "text": "Obrigado! Nos vemos outro dia, quem sabe..."
+    },
+    {
+      "pid": 75,
+      "name": "Vou levar comigo de volta pra Jussara",
+      "slug": "vou_levar_comigo_de_volta_pra_jussara",
+      "links": [
+        "➞"
+      ],
+      "text": "Você parte de volta para Belém e entrega pessoalmente o artefato de volta para Jussara. Pede perdão e agradece por tudo o que ela apresentou a você.\n\n(Jussara):\nEu é que agradeço! Muito obrigada mesmo por ter trazido de volta. Eu sabia que tinha algo de errado com aquele professor. Pode deixar que agora ele estará guardado a 7 chaves e, quem quer que venha atrás, terá que lidar com fúrias de mil formigas vermelhas!\n\n\"Vocês passam o final da tarde na beira do Rio Guamá observando o pôr-do-sol e seus pensamentos se floreiam de esperança e gratidão à ancestralidade\"\n\nFim\n(Você decide não ir para a Batalha entre o Professor e a Jussara tentando te convencer do que fazer. Aqui, você foi direto para a escolha de não fazê-lo)"
+    },
+    {
+      "pid": 76,
+      "name": "Até",
+      "slug": "ate",
+      "links": [
+        "➞"
+      ],
+      "text": "Você e o professor nunca mais se encontrarão. Você e o professor não encontrarão mais ninguém. Ninguém encontratá ninguém outra vez, pois não haverá \"alguéns\". Todas as individualidades desaparecerão, pois o professor deu origem à Unificação do Todo.\n\nTodas as criaturas vivas, humanidade, animais, vegetais, minerais, elementos da natureza e os corpos celestes. Tudo que existe como parte do todo, em células separadas, se unifica. Tudo que existe, da forma como existia jamais voltará a existir da mesma forma.\n\nFim\n(Você decide lavar as mãos diante do plano do professor, não se importando se ele levaria o plano adiante, o que ele acaba fazendo.)"
+    },
+    {
+      "pid": 77,
+      "name": "...",
+      "slug": "tres_pontos",
+      "links": [
+        "Vamos refazer o universo!",
+        "Não sei não",
+        "Remover o artefato da tabuleta"
+      ],
+      "text": "Isso significa que tudo o que existe, todas as criaturas vivas, a humanidade, animais, vegetais, minerais, elementos da natureza e os corpos celestes. Tudo é parte do todo. Tudo é uma célula separada de um único ser.\n\nEste artefato tem o poder de unificar o todo! Todos os nossos egos serão reunificados. Tudo o que existe deixará de existir como conhecemos. Então o todo se subdividirá novamente, gerando uma diferente realidade! Muito melhor do que a nossa!"
+    },
+    {
+      "pid": 78,
+      "name": "....",
+      "slug": "quatro_pontos",
+      "links": [
+        "Vou posicionar o artefato",
+        "Não quero participar disso",
+        "Vou levar comigo de volta pra Jussara"
+      ],
+      "text": "Isso significa que tudo o que existe, todas as criaturas vivas, a humanidade, animais, vegetais, minerais, elementos da natureza e os corpos celestes. Tudo é parte do todo. Tudo é uma célula separada de um único ser.\n\nEste artefato tem o poder de unificar o todo! Todos os nossos egos serão reunificados. Tudo o que existe deixará de existir como conhecemos. Então o todo se subdividirá novamente, gerando uma diferente realidade! Muito melhor do que a nossa!"
+    },
+    {
+      "pid": 79,
+      "name": "Vou posicionar o artefato",
+      "slug": "vou_posicionar_o_artefato",
+      "links": [
+        "(objeto posicionado)"
+      ],
+      "text": "Muito bem! Então tire ele de sua mochila e posicione sobre a mesa\n\n(interação de point n' click e point n' drag)"
+    },
+    {
+      "pid": 80,
+      "name": "Fala logo o que vai fazer!",
+      "slug": "fala_logo_o_que_vai_fazer",
+      "links": [
+        "..."
+      ],
+      "text": "Okay! Mas primeiro você precisa pelo menos saber o primeiro princípio hermético universal: \"tudo é mente, o universo é mental\""
+    },
+    {
+      "pid": 81,
+      "name": "Como assim?",
+      "slug": "como_assim",
+      "links": [
+        "Lembro sim",
+        "Fala mais do simbolismo",
+        "Fala logo o que vai fazer!"
+      ],
+      "text": "Lembra que eu tinha falado sobre o deus egípcio Tot, certo? O de cabeça de Ibis, aquele pássaro de bico fino, que representa o discernimento da tomada de uma escolha...."
+    },
+    {
+      "pid": 82,
+      "name": "Remover o artefato da tabuleta",
+      "slug": "remover_o_artefato_da_tabuleta",
+      "links": [
+        "Pode ficar",
+        "Vou levar comigo de volta pra Jussara",
+        "Sinto que não é certo sem a opinião dos demais"
+      ],
+      "text": "(A direção de arte volta à sua forma original)\n\nEspera aí! Digo, você pode ir, mas pode pelos menos deixar o objeto de volta?"
+    },
+    {
+      "pid": 83,
+      "name": "Não quero participar disso",
+      "slug": "nao_quero_participar_disso",
+      "links": [
+        "Pode ficar",
+        "Vou levar comigo de volta pra Jussara"
+      ],
+      "text": "Hmm... certo... Será que poderia ao menos deixar o artefato?\n\n \nNegativo!"
+    },
+    {
+      "pid": 84,
+      "name": "Não sei não",
+      "slug": "nao_sei_nao",
+      "links": [
+        "Sinto que não é certo sem a opinião dos demais",
+        "Vamos refazer o universo!"
+      ],
+      "text": "Pense bem, olhe para todos esses problemas que você ajudou a enfrentar. Pense em tudo o que o homem tem feito com o mundo, com seus semelhantes e com a natureza.\n\nEsse mundo não deu certo. Nós, que estamos com esse poder nas mãos, temos a responsabilidade de refazer tudo isso!"
+    },
+    {
+      "pid": 85,
+      "name": "Vamos refazer o universo!",
+      "slug": "vamos_refazer_o_universo",
+      "links": [],
+      "text": "Eu sabia que podia contar com você! Sempre vi muito de mim em você, sabia que faria a escolha certa. Aliás, você e eu seremos um novamente. Não só você e eu, mas também toda a humanidade...\n\n...e tudo mais que existe....\n\nFim\n(Você decide voluntariamente consentir com o plano do professor de Unificar o Todo, sem muitas indagações sobre as implicações éticas disso)"
+    },
+    {
+      "pid": 86,
+      "name": "Sinto que não é certo sem a opinião dos demais",
+      "slug": "sinto_que_nao_e_certo_sem_a_opiniao_dos_demais",
+      "links": [],
+      "text": "(Jussara aparece, revelando ter rastraado você até aqui. Nesse momento começará uma batalha ética entre a Jussara e o Professor, tentando te convercer dos benefícios de cada uma das duas escolhas)\n\nTwine da Batalha Jussarva X Professor"
+    }
+  ]
+}

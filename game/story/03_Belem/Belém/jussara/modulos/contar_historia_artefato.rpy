@@ -1,4 +1,4 @@
-## jussara_04 — História (avó, Cotijuba); chamada desde envolvida_na_causa (jussara_03_ajudar_mirante.rpy)
+## Módulo — História (avó, Cotijuba). Chamada por passagem me_conta_a_historia.
 ##
 ## Artes: `imagem_cima` = base (CUIA ou Pinheiros, etc.); `imagem_sobre` = opcional, por cima (ex. Fogo
 ## na faixa preta da cuia). Ajusta `zoom_sobre` e `yal_sobre` para alinhar a fogueira na cuia.

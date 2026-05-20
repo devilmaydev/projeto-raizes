@@ -1,0 +1,3393 @@
+{
+  "version": 1,
+  "root": "game/story/03_Belem/Belém/jussara/passagens",
+  "entry": "belem",
+  "nodes": {
+    "belem": {
+      "pid": 1,
+      "twine_name": "Belém",
+      "file": "01_aeroporto/p001_belem.rpy",
+      "canon_parent": null,
+      "canon_link": null,
+      "children": [
+        {
+          "slug": "continuar_aeroporto",
+          "link": "▶",
+          "nav": true,
+          "ref": "p004_continuar_aeroporto"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "universidade_federal_do_para": {
+      "pid": 2,
+      "twine_name": "Universidade Federal do Pará",
+      "file": "02_campus_mirante/p002_universidade_federal_do_para.rpy",
+      "canon_parent": "continuar_aeroporto",
+      "canon_link": "Universidade Federal do Pará",
+      "children": [
+        {
+          "slug": "mirante_do_rio",
+          "link": "Mirante do Rio",
+          "nav": false,
+          "ref": "p003_mirante_do_rio"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "mirante_do_rio": {
+      "pid": 3,
+      "twine_name": "Mirante do Rio",
+      "file": "02_campus_mirante/p003_mirante_do_rio.rpy",
+      "canon_parent": "universidade_federal_do_para",
+      "canon_link": "Mirante do Rio",
+      "children": [
+        {
+          "slug": "abordagem_da_jussara",
+          "link": "abordagem da Jussara",
+          "nav": false,
+          "ref": "p005_abordagem_da_jussara"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "continuar_aeroporto": {
+      "pid": 4,
+      "twine_name": "▶",
+      "file": "01_aeroporto/p004_continuar_aeroporto.rpy",
+      "canon_parent": "belem",
+      "canon_link": "▶",
+      "children": [
+        {
+          "slug": "universidade_federal_do_para",
+          "link": "Universidade Federal do Pará",
+          "nav": false,
+          "ref": "p002_universidade_federal_do_para"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "abordagem_da_jussara": {
+      "pid": 5,
+      "twine_name": "abordagem da Jussara",
+      "file": "02_campus_mirante/p005_abordagem_da_jussara.rpy",
+      "canon_parent": "mirante_do_rio",
+      "canon_link": "abordagem da Jussara",
+      "children": [
+        {
+          "slug": "posso_sim",
+          "link": "Posso sim",
+          "nav": false,
+          "ref": "p006_posso_sim"
+        },
+        {
+          "slug": "eu_ja_estava_te_procurando_mesmo",
+          "link": "Eu já estava te procurando mesmo",
+          "nav": false,
+          "ref": "p007_eu_ja_estava_te_procurando_mesmo"
+        },
+        {
+          "slug": "nem_pensar",
+          "link": "Nem pensar",
+          "nav": false,
+          "ref": "p008_nem_pensar"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "posso_sim": {
+      "pid": 6,
+      "twine_name": "Posso sim",
+      "file": "02_campus_mirante/p006_posso_sim.rpy",
+      "canon_parent": "abordagem_da_jussara",
+      "canon_link": "Posso sim",
+      "children": [
+        {
+          "slug": "sou_contra",
+          "link": "Sou contra",
+          "nav": false,
+          "ref": "p015_sou_contra"
+        },
+        {
+          "slug": "sou_a_favor",
+          "link": "Sou a favor",
+          "nav": false,
+          "ref": "p016_sou_a_favor"
+        },
+        {
+          "slug": "decreto_12_600",
+          "link": "Decreto 12.600?",
+          "nav": false,
+          "ref": "p017_decreto_12_600"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "ajudar_na_sua_pesquisa",
+          "ref": "p020_ajudar_na_sua_pesquisa"
+        },
+        {
+          "slug": "busco_algo_em_sua_posse",
+          "ref": "p014_busco_algo_em_sua_posse"
+        },
+        {
+          "slug": "nem_pensar",
+          "ref": "p008_nem_pensar"
+        },
+        {
+          "slug": "perdao",
+          "ref": "p032_perdao"
+        },
+        {
+          "slug": "tava_brincando",
+          "ref": "p012_tava_brincando"
+        }
+      ],
+      "is_crossing": true
+    },
+    "eu_ja_estava_te_procurando_mesmo": {
+      "pid": 7,
+      "twine_name": "Eu já estava te procurando mesmo",
+      "file": "02_campus_mirante/p007_eu_ja_estava_te_procurando_mesmo.rpy",
+      "canon_parent": "abordagem_da_jussara",
+      "canon_link": "Eu já estava te procurando mesmo",
+      "children": [
+        {
+          "slug": "tava_brincando",
+          "link": "Tava brincando",
+          "nav": false,
+          "ref": "p012_tava_brincando"
+        },
+        {
+          "slug": "sou_pesquisador_de_sp",
+          "link": "Sou pesquisador de SP",
+          "nav": false,
+          "ref": "p013_sou_pesquisador_de_sp"
+        },
+        {
+          "slug": "busco_algo_em_sua_posse",
+          "link": "Busco algo em sua posse",
+          "nav": false,
+          "ref": "p014_busco_algo_em_sua_posse"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "nem_pensar": {
+      "pid": 8,
+      "twine_name": "Nem pensar",
+      "file": "02_campus_mirante/p008_nem_pensar.rpy",
+      "canon_parent": "abordagem_da_jussara",
+      "canon_link": "Nem pensar",
+      "children": [
+        {
+          "slug": "serio",
+          "link": "Sério",
+          "nav": false,
+          "ref": "p021_serio"
+        },
+        {
+          "slug": "posso_sim",
+          "link": "Posso sim",
+          "nav": false,
+          "ref": "p006_posso_sim"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "ajudar_na_sua_pesquisa",
+          "ref": "p020_ajudar_na_sua_pesquisa"
+        },
+        {
+          "slug": "busco_algo_em_sua_posse",
+          "ref": "p014_busco_algo_em_sua_posse"
+        },
+        {
+          "slug": "perdao",
+          "ref": "p032_perdao"
+        },
+        {
+          "slug": "tava_brincando",
+          "ref": "p012_tava_brincando"
+        }
+      ],
+      "is_crossing": true
+    },
+    "game_over_continuar": {
+      "pid": 9,
+      "twine_name": "➞",
+      "file": "_sistema/p009_game_over_continuar.rpy",
+      "canon_parent": "serio",
+      "canon_link": "➞",
+      "children": [
+        {
+          "slug": "sim",
+          "link": "Sim",
+          "nav": false,
+          "ref": "p010_sim"
+        },
+        {
+          "slug": "nao",
+          "link": "Não",
+          "nav": false,
+          "ref": "p011_nao"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "entao_tchau",
+          "ref": "p136_entao_tchau"
+        },
+        {
+          "slug": "estou_sim",
+          "ref": "p025_estou_sim"
+        },
+        {
+          "slug": "irrelevantes",
+          "ref": "p099_irrelevantes"
+        },
+        {
+          "slug": "nao_faco_a_minima_ideia",
+          "ref": "p120_nao_faco_a_minima_ideia"
+        },
+        {
+          "slug": "nao_me_importo_mesmo",
+          "ref": "p037_nao_me_importo_mesmo"
+        },
+        {
+          "slug": "nem_e",
+          "ref": "p051_nem_e"
+        },
+        {
+          "slug": "relaxa_gata",
+          "ref": "p027_relaxa_gata"
+        },
+        {
+          "slug": "relevantes",
+          "ref": "p098_relevantes"
+        },
+        {
+          "slug": "sem_problemas_ate_mais",
+          "ref": "p132_sem_problemas_ate_mais"
+        },
+        {
+          "slug": "voce_esta_exagerando",
+          "ref": "p038_voce_esta_exagerando"
+        }
+      ],
+      "is_crossing": true
+    },
+    "sim": {
+      "pid": 10,
+      "twine_name": "Sim",
+      "file": "_sistema/p010_sim.rpy",
+      "canon_parent": "game_over_continuar",
+      "canon_link": "Sim",
+      "children": [],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "nao": {
+      "pid": 11,
+      "twine_name": "Não",
+      "file": "_sistema/p011_nao.rpy",
+      "canon_parent": "game_over_continuar",
+      "canon_link": "Não",
+      "children": [],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "tava_brincando": {
+      "pid": 12,
+      "twine_name": "Tava brincando",
+      "file": "02_campus_mirante/p012_tava_brincando.rpy",
+      "canon_parent": "eu_ja_estava_te_procurando_mesmo",
+      "canon_link": "Tava brincando",
+      "children": [
+        {
+          "slug": "posso_sim",
+          "link": "Posso sim",
+          "nav": false,
+          "ref": "p006_posso_sim"
+        },
+        {
+          "slug": "nem_pensar",
+          "link": "Nem pensar",
+          "nav": false,
+          "ref": "p008_nem_pensar"
+        },
+        {
+          "slug": "o_artefato_primeiro",
+          "link": "O artefato primeiro",
+          "nav": false,
+          "ref": "p029_o_artefato_primeiro"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "nao_faco_ideia",
+          "ref": "p134_nao_faco_ideia"
+        },
+        {
+          "slug": "preciso_que_me_ajude_a_descobrir",
+          "ref": "p030_preciso_que_me_ajude_a_descobrir"
+        }
+      ],
+      "is_crossing": true
+    },
+    "sou_pesquisador_de_sp": {
+      "pid": 13,
+      "twine_name": "Sou pesquisador de SP",
+      "file": "03_artefato_conversa/p013_sou_pesquisador_de_sp.rpy",
+      "canon_parent": "eu_ja_estava_te_procurando_mesmo",
+      "canon_link": "Sou pesquisador de SP",
+      "children": [
+        {
+          "slug": "busco_algo_em_sua_posse",
+          "link": "Busco algo em sua posse",
+          "nav": false,
+          "ref": "p014_busco_algo_em_sua_posse"
+        },
+        {
+          "slug": "ajudar_na_sua_pesquisa",
+          "link": "Ajudar na sua pesquisa",
+          "nav": false,
+          "ref": "p020_ajudar_na_sua_pesquisa"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "busco_algo_em_sua_posse": {
+      "pid": 14,
+      "twine_name": "Busco algo em sua posse",
+      "file": "03_artefato_conversa/p014_busco_algo_em_sua_posse.rpy",
+      "canon_parent": "eu_ja_estava_te_procurando_mesmo",
+      "canon_link": "Busco algo em sua posse",
+      "children": [
+        {
+          "slug": "posso_sim",
+          "link": "Posso sim",
+          "nav": false,
+          "ref": "p006_posso_sim"
+        },
+        {
+          "slug": "nem_pensar",
+          "link": "Nem pensar",
+          "nav": false,
+          "ref": "p008_nem_pensar"
+        },
+        {
+          "slug": "o_artefato_primeiro",
+          "link": "O artefato primeiro",
+          "nav": false,
+          "ref": "p029_o_artefato_primeiro"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "sou_pesquisador_de_sp",
+          "ref": "p013_sou_pesquisador_de_sp"
+        }
+      ],
+      "is_crossing": true
+    },
+    "sou_contra": {
+      "pid": 15,
+      "twine_name": "Sou contra",
+      "file": "02_campus_mirante/p015_sou_contra.rpy",
+      "canon_parent": "posso_sim",
+      "canon_link": "Sou contra",
+      "children": [
+        {
+          "slug": "prossiga",
+          "link": "Prossiga",
+          "nav": false,
+          "ref": "p024_prossiga"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "sou_a_favor": {
+      "pid": 16,
+      "twine_name": "Sou a favor",
+      "file": "02_campus_mirante/p016_sou_a_favor.rpy",
+      "canon_parent": "posso_sim",
+      "canon_link": "Sou a favor",
+      "children": [
+        {
+          "slug": "sei_nao_me_importo",
+          "link": "Sei, não me importo",
+          "nav": false,
+          "ref": "p018_sei_nao_me_importo"
+        },
+        {
+          "slug": "conte_me_mais",
+          "link": "Conte-me mais",
+          "nav": false,
+          "ref": "p019_conte_me_mais"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "decreto_12_600": {
+      "pid": 17,
+      "twine_name": "Decreto 12.600?",
+      "file": "02_campus_mirante/p017_decreto_12_600.rpy",
+      "canon_parent": "posso_sim",
+      "canon_link": "Decreto 12.600?",
+      "children": [
+        {
+          "slug": "conte_me_mais",
+          "link": "Conte-me mais",
+          "nav": false,
+          "ref": "p019_conte_me_mais"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "sei_nao_me_importo": {
+      "pid": 18,
+      "twine_name": "Sei, não me importo",
+      "file": "02_campus_mirante/p018_sei_nao_me_importo.rpy",
+      "canon_parent": "sou_a_favor",
+      "canon_link": "Sei, não me importo",
+      "children": [
+        {
+          "slug": "estou_sim",
+          "link": "Estou sim",
+          "nav": false,
+          "ref": "p025_estou_sim"
+        },
+        {
+          "slug": "claro_que_nao_so_zuando",
+          "link": "Claro que não, só zuando",
+          "nav": false,
+          "ref": "p026_claro_que_nao_so_zuando"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "conte_me_mais": {
+      "pid": 19,
+      "twine_name": "Conte-me mais",
+      "file": "02_campus_mirante/p019_conte_me_mais.rpy",
+      "canon_parent": "sou_a_favor",
+      "canon_link": "Conte-me mais",
+      "children": [
+        {
+          "slug": "e_qual_o_problema",
+          "link": "E qual o problema?",
+          "nav": false,
+          "ref": "p022_e_qual_o_problema"
+        },
+        {
+          "slug": "meu_deus_que_triste",
+          "link": "Meu Deus, que triste!",
+          "nav": false,
+          "ref": "p023_meu_deus_que_triste"
+        },
+        {
+          "slug": "prossiga",
+          "link": "Prossiga",
+          "nav": false,
+          "ref": "p024_prossiga"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "decreto_12_600",
+          "ref": "p017_decreto_12_600"
+        },
+        {
+          "slug": "eu_sei_desculpe",
+          "ref": "p028_eu_sei_desculpe"
+        }
+      ],
+      "is_crossing": true
+    },
+    "ajudar_na_sua_pesquisa": {
+      "pid": 20,
+      "twine_name": "Ajudar na sua pesquisa",
+      "file": "03_artefato_conversa/p020_ajudar_na_sua_pesquisa.rpy",
+      "canon_parent": "sou_pesquisador_de_sp",
+      "canon_link": "Ajudar na sua pesquisa",
+      "children": [
+        {
+          "slug": "posso_sim",
+          "link": "Posso sim",
+          "nav": false,
+          "ref": "p006_posso_sim"
+        },
+        {
+          "slug": "o_artefato_primeiro",
+          "link": "O artefato primeiro",
+          "nav": false,
+          "ref": "p029_o_artefato_primeiro"
+        },
+        {
+          "slug": "nem_pensar",
+          "link": "Nem pensar",
+          "nav": false,
+          "ref": "p008_nem_pensar"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "serio": {
+      "pid": 21,
+      "twine_name": "Sério",
+      "file": "02_campus_mirante/p021_serio.rpy",
+      "canon_parent": "nem_pensar",
+      "canon_link": "Sério",
+      "children": [
+        {
+          "slug": "game_over_continuar",
+          "link": "➞",
+          "nav": true,
+          "ref": "p009_game_over_continuar"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "e_qual_o_problema": {
+      "pid": 22,
+      "twine_name": "E qual o problema?",
+      "file": "02_campus_mirante/p022_e_qual_o_problema.rpy",
+      "canon_parent": "conte_me_mais",
+      "canon_link": "E qual o problema?",
+      "children": [
+        {
+          "slug": "prossiga",
+          "link": "Prossiga",
+          "nav": false,
+          "ref": "p024_prossiga"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "e_dai",
+          "ref": "p067_e_dai"
+        }
+      ],
+      "is_crossing": true
+    },
+    "meu_deus_que_triste": {
+      "pid": 23,
+      "twine_name": "Meu Deus, que triste!",
+      "file": "02_campus_mirante/p023_meu_deus_que_triste.rpy",
+      "canon_parent": "conte_me_mais",
+      "canon_link": "Meu Deus, que triste!",
+      "children": [
+        {
+          "slug": "prossiga",
+          "link": "Prossiga",
+          "nav": false,
+          "ref": "p024_prossiga"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "e_dai",
+          "ref": "p067_e_dai"
+        }
+      ],
+      "is_crossing": true
+    },
+    "prossiga": {
+      "pid": 24,
+      "twine_name": "Prossiga",
+      "file": "02_campus_mirante/p024_prossiga.rpy",
+      "canon_parent": "sou_contra",
+      "canon_link": "Prossiga",
+      "children": [
+        {
+          "slug": "ha_um_significado_mistico",
+          "link": "Há um significado místico desse rio para esses povos?",
+          "nav": false,
+          "ref": "p064_ha_um_significado_mistico"
+        },
+        {
+          "slug": "os_indios_deveriam_ser_incorporados",
+          "link": "Os índios deveriam ser incorporados à sociedade como todo mundo",
+          "nav": false,
+          "ref": "p035_os_indios_deveriam_ser_incorporados"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "conte_me_mais",
+          "ref": "p019_conte_me_mais"
+        },
+        {
+          "slug": "e_dai",
+          "ref": "p067_e_dai"
+        },
+        {
+          "slug": "e_qual_o_problema",
+          "ref": "p022_e_qual_o_problema"
+        },
+        {
+          "slug": "meu_deus_que_triste",
+          "ref": "p023_meu_deus_que_triste"
+        }
+      ],
+      "is_crossing": true
+    },
+    "estou_sim": {
+      "pid": 25,
+      "twine_name": "Estou sim",
+      "file": "02_campus_mirante/p025_estou_sim.rpy",
+      "canon_parent": "sei_nao_me_importo",
+      "canon_link": "Estou sim",
+      "children": [
+        {
+          "slug": "game_over_continuar",
+          "link": "➞",
+          "nav": true,
+          "ref": "p009_game_over_continuar"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "claro_que_nao_so_zuando": {
+      "pid": 26,
+      "twine_name": "Claro que não, só zuando",
+      "file": "02_campus_mirante/p026_claro_que_nao_so_zuando.rpy",
+      "canon_parent": "sei_nao_me_importo",
+      "canon_link": "Claro que não, só zuando",
+      "children": [
+        {
+          "slug": "relaxa_gata",
+          "link": "Relaxa, gata",
+          "nav": false,
+          "ref": "p027_relaxa_gata"
+        },
+        {
+          "slug": "eu_sei_desculpe",
+          "link": "Eu sei, desculpe",
+          "nav": false,
+          "ref": "p028_eu_sei_desculpe"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "relaxa_gata": {
+      "pid": 27,
+      "twine_name": "Relaxa, gata",
+      "file": "02_campus_mirante/p027_relaxa_gata.rpy",
+      "canon_parent": "claro_que_nao_so_zuando",
+      "canon_link": "Relaxa, gata",
+      "children": [
+        {
+          "slug": "game_over_continuar",
+          "link": "➞",
+          "nav": true,
+          "ref": "p009_game_over_continuar"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "eu_sei_desculpe": {
+      "pid": 28,
+      "twine_name": "Eu sei, desculpe",
+      "file": "02_campus_mirante/p028_eu_sei_desculpe.rpy",
+      "canon_parent": "claro_que_nao_so_zuando",
+      "canon_link": "Eu sei, desculpe",
+      "children": [
+        {
+          "slug": "conte_me_mais",
+          "link": "Conte-me mais",
+          "nav": false,
+          "ref": "p019_conte_me_mais"
+        },
+        {
+          "slug": "nao_me_importo_mesmo",
+          "link": "Não me importo mesmo",
+          "nav": false,
+          "ref": "p037_nao_me_importo_mesmo"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "o_artefato_primeiro": {
+      "pid": 29,
+      "twine_name": "O artefato primeiro",
+      "file": "03_artefato_conversa/p029_o_artefato_primeiro.rpy",
+      "canon_parent": "tava_brincando",
+      "canon_link": "O artefato primeiro",
+      "children": [
+        {
+          "slug": "preciso_que_me_ajude_a_descobrir",
+          "link": "Preciso que me ajude a descobrir",
+          "nav": false,
+          "ref": "p030_preciso_que_me_ajude_a_descobrir"
+        },
+        {
+          "slug": "um_artefato_magico_que_transforma_a_realidade",
+          "link": "Um artefato mágico que transforma a realidade",
+          "nav": false,
+          "ref": "p031_um_artefato_magico_que_transforma_a_realidade"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "ajudar_na_sua_pesquisa",
+          "ref": "p020_ajudar_na_sua_pesquisa"
+        },
+        {
+          "slug": "busco_algo_em_sua_posse",
+          "ref": "p014_busco_algo_em_sua_posse"
+        }
+      ],
+      "is_crossing": true
+    },
+    "preciso_que_me_ajude_a_descobrir": {
+      "pid": 30,
+      "twine_name": "Preciso que me ajude a descobrir",
+      "file": "03_artefato_conversa/p030_preciso_que_me_ajude_a_descobrir.rpy",
+      "canon_parent": "o_artefato_primeiro",
+      "canon_link": "Preciso que me ajude a descobrir",
+      "children": [
+        {
+          "slug": "absoluta",
+          "link": "Absoluta",
+          "nav": false,
+          "ref": "p036_absoluta"
+        },
+        {
+          "slug": "tava_brincando",
+          "link": "Tava brincando",
+          "nav": false,
+          "ref": "p012_tava_brincando"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "um_artefato_magico_que_transforma_a_realidade": {
+      "pid": 31,
+      "twine_name": "Um artefato mágico que transforma a realidade",
+      "file": "03_artefato_conversa/p031_um_artefato_magico_que_transforma_a_realidade.rpy",
+      "canon_parent": "o_artefato_primeiro",
+      "canon_link": "Um artefato mágico que transforma a realidade",
+      "children": [
+        {
+          "slug": "perdao",
+          "link": "Perdão",
+          "nav": false,
+          "ref": "p032_perdao"
+        },
+        {
+          "slug": "nao_acho_tao_serio_assim",
+          "link": "Não acho tão sério assim",
+          "nav": false,
+          "ref": "p033_nao_acho_tao_serio_assim"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "perdao": {
+      "pid": 32,
+      "twine_name": "Perdão",
+      "file": "03_artefato_conversa/p032_perdao.rpy",
+      "canon_parent": "um_artefato_magico_que_transforma_a_realidade",
+      "canon_link": "Perdão",
+      "children": [
+        {
+          "slug": "posso_sim",
+          "link": "Posso sim",
+          "nav": false,
+          "ref": "p006_posso_sim"
+        },
+        {
+          "slug": "nem_pensar",
+          "link": "Nem pensar",
+          "nav": false,
+          "ref": "p008_nem_pensar"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "nao_acho_tao_serio_assim": {
+      "pid": 33,
+      "twine_name": "Não acho tão sério assim",
+      "file": "03_artefato_conversa/p033_nao_acho_tao_serio_assim.rpy",
+      "canon_parent": "um_artefato_magico_que_transforma_a_realidade",
+      "canon_link": "Não acho tão sério assim",
+      "children": [
+        {
+          "slug": "game_over_continuar_alt",
+          "link": "⇨",
+          "nav": true,
+          "ref": "p043_game_over_continuar_alt"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "quero_ajudar": {
+      "pid": 34,
+      "twine_name": "Quero ajudar",
+      "file": "02_campus_mirante/p034_quero_ajudar.rpy",
+      "canon_parent": "ha_um_significado_mistico",
+      "canon_link": "Quero ajudar",
+      "children": [
+        {
+          "slug": "agitar_nas_redes",
+          "link": "Agitar nas redes",
+          "nav": false,
+          "ref": "p040_agitar_nas_redes"
+        },
+        {
+          "slug": "pix_solidario_para_ajudar_nas_ocupacoes",
+          "link": "Pix solidário para ajudar nas ocupações",
+          "nav": false,
+          "ref": "p042_pix_solidario_para_ajudar_nas_ocupacoes"
+        },
+        {
+          "slug": "ajudar_a_disseminar_em_sp",
+          "link": "Ajudar a disseminar em SP, o maior hub do Brasil",
+          "nav": false,
+          "ref": "p041_ajudar_a_disseminar_em_sp"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "desculpe",
+          "ref": "p074_desculpe"
+        },
+        {
+          "slug": "rompendo_o_veu_entre_o_mundo_fisico_e_o_astral",
+          "ref": "p121_rompendo_o_veu_entre_o_mundo_fisico_e_o_astral"
+        },
+        {
+          "slug": "so_sigo_ordens",
+          "ref": "p129_so_sigo_ordens"
+        }
+      ],
+      "is_crossing": true
+    },
+    "os_indios_deveriam_ser_incorporados": {
+      "pid": 35,
+      "twine_name": "Os índios deveriam ser incorporados à sociedade como todo mundo",
+      "file": "02_campus_mirante/p035_os_indios_deveriam_ser_incorporados.rpy",
+      "canon_parent": "prossiga",
+      "canon_link": "Os índios deveriam ser incorporados à sociedade como todo mundo",
+      "children": [
+        {
+          "slug": "voce_esta_exagerando",
+          "link": "Você está exagerando",
+          "nav": false,
+          "ref": "p038_voce_esta_exagerando"
+        },
+        {
+          "slug": "nao_tinha_parado_pra_pensar_nisso",
+          "link": "Não tinha parado pra pensar nisso",
+          "nav": false,
+          "ref": "p039_nao_tinha_parado_pra_pensar_nisso"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "absoluta": {
+      "pid": 36,
+      "twine_name": "Absoluta",
+      "file": "03_artefato_conversa/p036_absoluta.rpy",
+      "canon_parent": "preciso_que_me_ajude_a_descobrir",
+      "canon_link": "Absoluta",
+      "children": [
+        {
+          "slug": "game_over_continuar_alt",
+          "link": "⇨",
+          "nav": true,
+          "ref": "p043_game_over_continuar_alt"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "nao_me_importo_mesmo": {
+      "pid": 37,
+      "twine_name": "Não me importo mesmo",
+      "file": "02_campus_mirante/p037_nao_me_importo_mesmo.rpy",
+      "canon_parent": "eu_sei_desculpe",
+      "canon_link": "Não me importo mesmo",
+      "children": [
+        {
+          "slug": "game_over_continuar",
+          "link": "➞",
+          "nav": true,
+          "ref": "p009_game_over_continuar"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "voce_esta_exagerando": {
+      "pid": 38,
+      "twine_name": "Você está exagerando",
+      "file": "02_campus_mirante/p038_voce_esta_exagerando.rpy",
+      "canon_parent": "os_indios_deveriam_ser_incorporados",
+      "canon_link": "Você está exagerando",
+      "children": [
+        {
+          "slug": "game_over_continuar",
+          "link": "➞",
+          "nav": true,
+          "ref": "p009_game_over_continuar"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "nao_tinha_parado_pra_pensar_nisso": {
+      "pid": 39,
+      "twine_name": "Não tinha parado pra pensar nisso",
+      "file": "02_campus_mirante/p039_nao_tinha_parado_pra_pensar_nisso.rpy",
+      "canon_parent": "os_indios_deveriam_ser_incorporados",
+      "canon_link": "Não tinha parado pra pensar nisso",
+      "children": [
+        {
+          "slug": "voce_esta_pessoalmente_envolvida_na_causa",
+          "link": "Você está pessoalmente envolvida na causa?",
+          "nav": false,
+          "ref": "p046_voce_esta_pessoalmente_envolvida_na_causa"
+        },
+        {
+          "slug": "esse_povo_nao_tem_o_que_fazer",
+          "link": "Esse povo não tem o que fazer?",
+          "nav": false,
+          "ref": "p049_esse_povo_nao_tem_o_que_fazer"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "agitar_nas_redes": {
+      "pid": 40,
+      "twine_name": "Agitar nas redes",
+      "file": "02_campus_mirante/p040_agitar_nas_redes.rpy",
+      "canon_parent": "quero_ajudar",
+      "canon_link": "Agitar nas redes",
+      "children": [
+        {
+          "slug": "nao_foi_por_nada",
+          "link": "Não foi por nada!",
+          "nav": false,
+          "ref": "p056_nao_foi_por_nada"
+        },
+        {
+          "slug": "na_verdade_agora_queria_pedir_sua_ajuda",
+          "link": "Na verdade, agora queria pedir sua ajuda com outra coisa",
+          "nav": false,
+          "ref": "p057_na_verdade_agora_queria_pedir_sua_ajuda"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "que_ajudar_de_outra_forma",
+          "ref": "p063_que_ajudar_de_outra_forma"
+        },
+        {
+          "slug": "vou_dar_uma_chance",
+          "ref": "p093_vou_dar_uma_chance"
+        }
+      ],
+      "is_crossing": true
+    },
+    "ajudar_a_disseminar_em_sp": {
+      "pid": 41,
+      "twine_name": "Ajudar a disseminar em SP, o maior hub do Brasil",
+      "file": "02_campus_mirante/p041_ajudar_a_disseminar_em_sp.rpy",
+      "canon_parent": "quero_ajudar",
+      "canon_link": "Ajudar a disseminar em SP, o maior hub do Brasil",
+      "children": [
+        {
+          "slug": "nao_foi_por_nada",
+          "link": "Não foi por nada!",
+          "nav": false,
+          "ref": "p056_nao_foi_por_nada"
+        },
+        {
+          "slug": "na_verdade_agora_queria_pedir_sua_ajuda",
+          "link": "Na verdade, agora queria pedir sua ajuda com outra coisa",
+          "nav": false,
+          "ref": "p057_na_verdade_agora_queria_pedir_sua_ajuda"
+        },
+        {
+          "slug": "voce_esta_pessoalmente_envolvida_na_causa",
+          "link": "Você está pessoalmente envolvida na causa?",
+          "nav": false,
+          "ref": "p046_voce_esta_pessoalmente_envolvida_na_causa"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "que_ajudar_de_outra_forma",
+          "ref": "p063_que_ajudar_de_outra_forma"
+        },
+        {
+          "slug": "vou_dar_uma_chance",
+          "ref": "p093_vou_dar_uma_chance"
+        }
+      ],
+      "is_crossing": true
+    },
+    "pix_solidario_para_ajudar_nas_ocupacoes": {
+      "pid": 42,
+      "twine_name": "Pix solidário para ajudar nas ocupações",
+      "file": "02_campus_mirante/p042_pix_solidario_para_ajudar_nas_ocupacoes.rpy",
+      "canon_parent": "quero_ajudar",
+      "canon_link": "Pix solidário para ajudar nas ocupações",
+      "children": [
+        {
+          "slug": "qual_a_chave_pix",
+          "link": "Qual a chave pix?",
+          "nav": false,
+          "ref": "p052_qual_a_chave_pix"
+        },
+        {
+          "slug": "acho_que_mudei_de_ideia",
+          "link": "Acho que mudei de ideia",
+          "nav": false,
+          "ref": "p053_acho_que_mudei_de_ideia"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "vou_dar_uma_chance",
+          "ref": "p093_vou_dar_uma_chance"
+        }
+      ],
+      "is_crossing": true
+    },
+    "game_over_continuar_alt": {
+      "pid": 43,
+      "twine_name": "⇨",
+      "file": "_sistema/p043_game_over_continuar_alt.rpy",
+      "canon_parent": "absoluta",
+      "canon_link": "⇨",
+      "children": [
+        {
+          "slug": "sim_ponto",
+          "link": "Sim.",
+          "nav": false,
+          "ref": "p044_sim_ponto"
+        },
+        {
+          "slug": "nao_ponto",
+          "link": "Não.",
+          "nav": false,
+          "ref": "p045_nao_ponto"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "azar_o_seu",
+          "ref": "p094_azar_o_seu"
+        },
+        {
+          "slug": "espera",
+          "ref": "p114_espera"
+        },
+        {
+          "slug": "nao_acho_tao_serio_assim",
+          "ref": "p033_nao_acho_tao_serio_assim"
+        },
+        {
+          "slug": "simplesmente_nao_vou_mais_ajudar",
+          "ref": "p062_simplesmente_nao_vou_mais_ajudar"
+        },
+        {
+          "slug": "tchau_tchau",
+          "ref": "p115_tchau_tchau"
+        },
+        {
+          "slug": "tudo_bem_ate_mais",
+          "ref": "p135_tudo_bem_ate_mais"
+        }
+      ],
+      "is_crossing": true
+    },
+    "sim_ponto": {
+      "pid": 44,
+      "twine_name": "Sim.",
+      "file": "_sistema/p044_sim_ponto.rpy",
+      "canon_parent": "game_over_continuar_alt",
+      "canon_link": "Sim.",
+      "children": [],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "nao_ponto": {
+      "pid": 45,
+      "twine_name": "Não.",
+      "file": "_sistema/p045_nao_ponto.rpy",
+      "canon_parent": "game_over_continuar_alt",
+      "canon_link": "Não.",
+      "children": [],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "voce_esta_pessoalmente_envolvida_na_causa": {
+      "pid": 46,
+      "twine_name": "Você está pessoalmente envolvida na causa?",
+      "file": "02_campus_mirante/p046_voce_esta_pessoalmente_envolvida_na_causa.rpy",
+      "canon_parent": "nao_tinha_parado_pra_pensar_nisso",
+      "canon_link": "Você está pessoalmente envolvida na causa?",
+      "children": [
+        {
+          "slug": "hmm",
+          "link": "Hmm...",
+          "nav": false,
+          "ref": "p048_hmm"
+        },
+        {
+          "slug": "me_conta_a_historia",
+          "link": "Me conta a história",
+          "nav": false,
+          "ref": "p047_me_conta_a_historia"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "ajudar_a_disseminar_em_sp",
+          "ref": "p041_ajudar_a_disseminar_em_sp"
+        }
+      ],
+      "is_crossing": true
+    },
+    "me_conta_a_historia": {
+      "pid": 47,
+      "twine_name": "Me conta a história",
+      "file": "04_encerramento/p047_me_conta_a_historia.rpy",
+      "canon_parent": "voce_esta_pessoalmente_envolvida_na_causa",
+      "canon_link": "Me conta a história",
+      "children": [],
+      "other_parents": [
+        {
+          "slug": "hmm",
+          "ref": "p048_hmm"
+        }
+      ],
+      "is_crossing": true
+    },
+    "hmm": {
+      "pid": 48,
+      "twine_name": "Hmm...",
+      "file": "02_campus_mirante/p048_hmm.rpy",
+      "canon_parent": "voce_esta_pessoalmente_envolvida_na_causa",
+      "canon_link": "Hmm...",
+      "children": [
+        {
+          "slug": "me_conta_a_historia",
+          "link": "Me conta a história",
+          "nav": false,
+          "ref": "p047_me_conta_a_historia"
+        },
+        {
+          "slug": "vamos_para_a_proxima_pergunta",
+          "link": "Vamos para a próxima pergunta",
+          "nav": false,
+          "ref": "p078_vamos_para_a_proxima_pergunta"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "esse_povo_nao_tem_o_que_fazer": {
+      "pid": 49,
+      "twine_name": "Esse povo não tem o que fazer?",
+      "file": "02_campus_mirante/p049_esse_povo_nao_tem_o_que_fazer.rpy",
+      "canon_parent": "nao_tinha_parado_pra_pensar_nisso",
+      "canon_link": "Esse povo não tem o que fazer?",
+      "children": [
+        {
+          "slug": "era_mesmo_desculpe_prossiga",
+          "link": "Era mesmo. Desculpe. Prossiga",
+          "nav": false,
+          "ref": "p050_era_mesmo_desculpe_prossiga"
+        },
+        {
+          "slug": "nem_e",
+          "link": "Nem é",
+          "nav": false,
+          "ref": "p051_nem_e"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "era_mesmo_desculpe_prossiga": {
+      "pid": 50,
+      "twine_name": "Era mesmo. Desculpe. Prossiga",
+      "file": "02_campus_mirante/p050_era_mesmo_desculpe_prossiga.rpy",
+      "canon_parent": "vou",
+      "canon_link": "Era mesmo. Desculpe. Prossiga",
+      "children": [],
+      "other_parents": [
+        {
+          "slug": "esse_povo_nao_tem_o_que_fazer",
+          "ref": "p049_esse_povo_nao_tem_o_que_fazer"
+        }
+      ],
+      "is_crossing": true
+    },
+    "nem_e": {
+      "pid": 51,
+      "twine_name": "Nem é",
+      "file": "02_campus_mirante/p051_nem_e.rpy",
+      "canon_parent": "vou",
+      "canon_link": "Nem é",
+      "children": [
+        {
+          "slug": "game_over_continuar",
+          "link": "➞",
+          "nav": true,
+          "ref": "p009_game_over_continuar"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "esse_povo_nao_tem_o_que_fazer",
+          "ref": "p049_esse_povo_nao_tem_o_que_fazer"
+        }
+      ],
+      "is_crossing": true
+    },
+    "qual_a_chave_pix": {
+      "pid": 52,
+      "twine_name": "Qual a chave pix?",
+      "file": "04_encerramento/p052_qual_a_chave_pix.rpy",
+      "canon_parent": "pix_solidario_para_ajudar_nas_ocupacoes",
+      "canon_link": "Qual a chave pix?",
+      "children": [
+        {
+          "slug": "feito",
+          "link": "Feito",
+          "nav": false,
+          "ref": "p054_feito"
+        },
+        {
+          "slug": "agora_preciso_da_sua_ajuda",
+          "link": "Agora preciso da sua ajuda",
+          "nav": false,
+          "ref": "p055_agora_preciso_da_sua_ajuda"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "que_nada_vamo_sim",
+          "ref": "p061_que_nada_vamo_sim"
+        }
+      ],
+      "is_crossing": true
+    },
+    "acho_que_mudei_de_ideia": {
+      "pid": 53,
+      "twine_name": "Acho que mudei de ideia",
+      "file": "02_campus_mirante/p053_acho_que_mudei_de_ideia.rpy",
+      "canon_parent": "pix_solidario_para_ajudar_nas_ocupacoes",
+      "canon_link": "Acho que mudei de ideia",
+      "children": [
+        {
+          "slug": "te_juro",
+          "link": "Te juro",
+          "nav": false,
+          "ref": "p060_te_juro"
+        },
+        {
+          "slug": "que_nada_vamo_sim",
+          "link": "Que nada, vamo sim",
+          "nav": false,
+          "ref": "p061_que_nada_vamo_sim"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "feito": {
+      "pid": 54,
+      "twine_name": "Feito",
+      "file": "04_encerramento/p054_feito.rpy",
+      "canon_parent": "qual_a_chave_pix",
+      "canon_link": "Feito",
+      "children": [
+        {
+          "slug": "nao_foi_por_nada",
+          "link": "Não foi por nada!",
+          "nav": false,
+          "ref": "p056_nao_foi_por_nada"
+        },
+        {
+          "slug": "na_verdade_agora_queria_pedir_sua_ajuda",
+          "link": "Na verdade, agora queria pedir sua ajuda com outra coisa",
+          "nav": false,
+          "ref": "p057_na_verdade_agora_queria_pedir_sua_ajuda"
+        },
+        {
+          "slug": "pacas",
+          "link": "Pacas?",
+          "nav": false,
+          "ref": "p058_pacas"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "gracinha_e_voce",
+          "ref": "p080_gracinha_e_voce"
+        }
+      ],
+      "is_crossing": true
+    },
+    "agora_preciso_da_sua_ajuda": {
+      "pid": 55,
+      "twine_name": "Agora preciso da sua ajuda",
+      "file": "03_artefato_conversa/p055_agora_preciso_da_sua_ajuda.rpy",
+      "canon_parent": "qual_a_chave_pix",
+      "canon_link": "Agora preciso da sua ajuda",
+      "children": [
+        {
+          "slug": "gostaria_que_me_emprestasse_um_artefato_seu",
+          "link": "Gostaria que me emprestasse um artefato seu",
+          "nav": false,
+          "ref": "p059_gostaria_que_me_emprestasse_um_artefato_seu"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "gracinha_e_voce",
+          "ref": "p080_gracinha_e_voce"
+        }
+      ],
+      "is_crossing": true
+    },
+    "nao_foi_por_nada": {
+      "pid": 56,
+      "twine_name": "Não foi por nada!",
+      "file": "02_campus_mirante/p056_nao_foi_por_nada.rpy",
+      "canon_parent": "agitar_nas_redes",
+      "canon_link": "Não foi por nada!",
+      "children": [
+        {
+          "slug": "vamos_para_a_proxima_pergunta",
+          "link": "Vamos para a próxima pergunta",
+          "nav": false,
+          "ref": "p078_vamos_para_a_proxima_pergunta"
+        },
+        {
+          "slug": "na_verdade_agora_queria_pedir_sua_ajuda",
+          "link": "Na verdade, agora queria pedir sua ajuda com outra coisa",
+          "nav": false,
+          "ref": "p057_na_verdade_agora_queria_pedir_sua_ajuda"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "ajudar_a_disseminar_em_sp",
+          "ref": "p041_ajudar_a_disseminar_em_sp"
+        },
+        {
+          "slug": "feito",
+          "ref": "p054_feito"
+        }
+      ],
+      "is_crossing": true
+    },
+    "na_verdade_agora_queria_pedir_sua_ajuda": {
+      "pid": 57,
+      "twine_name": "Na verdade, agora queria pedir sua ajuda com outra coisa",
+      "file": "03_artefato_conversa/p057_na_verdade_agora_queria_pedir_sua_ajuda.rpy",
+      "canon_parent": "agitar_nas_redes",
+      "canon_link": "Na verdade, agora queria pedir sua ajuda com outra coisa",
+      "children": [
+        {
+          "slug": "gostaria_que_me_emprestasse_um_artefato_seu",
+          "link": "Gostaria que me emprestasse um artefato seu",
+          "nav": false,
+          "ref": "p059_gostaria_que_me_emprestasse_um_artefato_seu"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "ajudar_a_disseminar_em_sp",
+          "ref": "p041_ajudar_a_disseminar_em_sp"
+        },
+        {
+          "slug": "feito",
+          "ref": "p054_feito"
+        },
+        {
+          "slug": "interessante",
+          "ref": "p075_interessante"
+        },
+        {
+          "slug": "nao_foi_por_nada",
+          "ref": "p056_nao_foi_por_nada"
+        }
+      ],
+      "is_crossing": true
+    },
+    "pacas": {
+      "pid": 58,
+      "twine_name": "Pacas?",
+      "file": "04_encerramento/p058_pacas.rpy",
+      "canon_parent": "feito",
+      "canon_link": "Pacas?",
+      "children": [
+        {
+          "slug": "interessante",
+          "link": "Interessante!",
+          "nav": false,
+          "ref": "p075_interessante"
+        },
+        {
+          "slug": "que_gracinha_voce",
+          "link": "Que gracinha você",
+          "nav": false,
+          "ref": "p076_que_gracinha_voce"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "gostaria_que_me_emprestasse_um_artefato_seu": {
+      "pid": 59,
+      "twine_name": "Gostaria que me emprestasse um artefato seu",
+      "file": "03_artefato_conversa/p059_gostaria_que_me_emprestasse_um_artefato_seu.rpy",
+      "canon_parent": "na_verdade_agora_queria_pedir_sua_ajuda",
+      "canon_link": "Gostaria que me emprestasse um artefato seu",
+      "children": [
+        {
+          "slug": "sei",
+          "link": "Sei",
+          "nav": false,
+          "ref": "p068_sei"
+        },
+        {
+          "slug": "pior_que_nao",
+          "link": "Pior que não",
+          "nav": false,
+          "ref": "p069_pior_que_nao"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "agora_preciso_da_sua_ajuda",
+          "ref": "p055_agora_preciso_da_sua_ajuda"
+        }
+      ],
+      "is_crossing": true
+    },
+    "te_juro": {
+      "pid": 60,
+      "twine_name": "Te juro",
+      "file": "02_campus_mirante/p060_te_juro.rpy",
+      "canon_parent": "acho_que_mudei_de_ideia",
+      "canon_link": "Te juro",
+      "children": [
+        {
+          "slug": "simplesmente_nao_vou_mais_ajudar",
+          "link": "Simplesmente não vou mais ajudar",
+          "nav": false,
+          "ref": "p062_simplesmente_nao_vou_mais_ajudar"
+        },
+        {
+          "slug": "que_ajudar_de_outra_forma",
+          "link": "Que ajudar de outra forma",
+          "nav": false,
+          "ref": "p063_que_ajudar_de_outra_forma"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "que_nada_vamo_sim": {
+      "pid": 61,
+      "twine_name": "Que nada, vamo sim",
+      "file": "02_campus_mirante/p061_que_nada_vamo_sim.rpy",
+      "canon_parent": "acho_que_mudei_de_ideia",
+      "canon_link": "Que nada, vamo sim",
+      "children": [
+        {
+          "slug": "qual_a_chave_pix",
+          "link": "Qual a chave pix?",
+          "nav": false,
+          "ref": "p052_qual_a_chave_pix"
+        },
+        {
+          "slug": "gracinha_e_voce",
+          "link": "Gracinha é você",
+          "nav": false,
+          "ref": "p080_gracinha_e_voce"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "simplesmente_nao_vou_mais_ajudar": {
+      "pid": 62,
+      "twine_name": "Simplesmente não vou mais ajudar",
+      "file": "02_campus_mirante/p062_simplesmente_nao_vou_mais_ajudar.rpy",
+      "canon_parent": "te_juro",
+      "canon_link": "Simplesmente não vou mais ajudar",
+      "children": [
+        {
+          "slug": "game_over_continuar_alt",
+          "link": "⇨",
+          "nav": true,
+          "ref": "p043_game_over_continuar_alt"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "que_ajudar_de_outra_forma": {
+      "pid": 63,
+      "twine_name": "Que ajudar de outra forma",
+      "file": "02_campus_mirante/p063_que_ajudar_de_outra_forma.rpy",
+      "canon_parent": "te_juro",
+      "canon_link": "Que ajudar de outra forma",
+      "children": [
+        {
+          "slug": "agitar_nas_redes",
+          "link": "Agitar nas redes",
+          "nav": false,
+          "ref": "p040_agitar_nas_redes"
+        },
+        {
+          "slug": "ajudar_a_disseminar_em_sp",
+          "link": "Ajudar a disseminar em SP, o maior hub do Brasil",
+          "nav": false,
+          "ref": "p041_ajudar_a_disseminar_em_sp"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "ha_um_significado_mistico": {
+      "pid": 64,
+      "twine_name": "Há um significado místico desse rio para esses povos?",
+      "file": "02_campus_mirante/p064_ha_um_significado_mistico.rpy",
+      "canon_parent": "prossiga",
+      "canon_link": "Há um significado místico desse rio para esses povos?",
+      "children": [
+        {
+          "slug": "isso_me_lembra_de_um_certo_arfefato",
+          "link": "Isso me lembra de um certo arfefato",
+          "nav": false,
+          "ref": "p100_isso_me_lembra_de_um_certo_arfefato"
+        },
+        {
+          "slug": "quero_ajudar",
+          "link": "Quero ajudar",
+          "nav": false,
+          "ref": "p034_quero_ajudar"
+        },
+        {
+          "slug": "grande_coisa",
+          "link": "Grande coisa...",
+          "nav": false,
+          "ref": "p065_grande_coisa"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "grande_coisa": {
+      "pid": 65,
+      "twine_name": "Grande coisa...",
+      "file": "02_campus_mirante/p065_grande_coisa.rpy",
+      "canon_parent": "ha_um_significado_mistico",
+      "canon_link": "Grande coisa...",
+      "children": [
+        {
+          "slug": "vou",
+          "link": "Vou",
+          "nav": false,
+          "ref": "p066_vou"
+        },
+        {
+          "slug": "desculpe",
+          "link": "Desculpe!",
+          "nav": false,
+          "ref": "p074_desculpe"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "vou": {
+      "pid": 66,
+      "twine_name": "Vou",
+      "file": "02_campus_mirante/p066_vou.rpy",
+      "canon_parent": "grande_coisa",
+      "canon_link": "Vou",
+      "children": [
+        {
+          "slug": "era_mesmo_desculpe_prossiga",
+          "link": "Era mesmo. Desculpe. Prossiga",
+          "nav": false,
+          "ref": "p050_era_mesmo_desculpe_prossiga"
+        },
+        {
+          "slug": "nem_e",
+          "link": "Nem é",
+          "nav": false,
+          "ref": "p051_nem_e"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "e_dai": {
+      "pid": 67,
+      "twine_name": "E daí?",
+      "file": "02_campus_mirante/p067_e_dai.rpy",
+      "canon_parent": null,
+      "canon_link": null,
+      "children": [
+        {
+          "slug": "e_qual_o_problema",
+          "link": "E qual o problema?",
+          "nav": false,
+          "ref": "p022_e_qual_o_problema"
+        },
+        {
+          "slug": "meu_deus_que_triste",
+          "link": "Meu Deus, que triste!",
+          "nav": false,
+          "ref": "p023_meu_deus_que_triste"
+        },
+        {
+          "slug": "prossiga",
+          "link": "Prossiga",
+          "nav": false,
+          "ref": "p024_prossiga"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "sei": {
+      "pid": 68,
+      "twine_name": "Sei",
+      "file": "03_artefato_conversa/p068_sei.rpy",
+      "canon_parent": "gostaria_que_me_emprestasse_um_artefato_seu",
+      "canon_link": "Sei",
+      "children": [
+        {
+          "slug": "tava_mentindo",
+          "link": "Tava mentindo",
+          "nav": false,
+          "ref": "p070_tava_mentindo"
+        },
+        {
+          "slug": "nao_sei",
+          "link": "Não sei",
+          "nav": false,
+          "ref": "p071_nao_sei"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "pior_que_nao": {
+      "pid": 69,
+      "twine_name": "Pior que não",
+      "file": "03_artefato_conversa/p069_pior_que_nao.rpy",
+      "canon_parent": "gostaria_que_me_emprestasse_um_artefato_seu",
+      "canon_link": "Pior que não",
+      "children": [
+        {
+          "slug": "sei_como_e",
+          "link": "Sei como é...",
+          "nav": false,
+          "ref": "p072_sei_como_e"
+        },
+        {
+          "slug": "se_vira_da_um_jeito",
+          "link": "Se vira, dá um jeito!",
+          "nav": false,
+          "ref": "p073_se_vira_da_um_jeito"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "nao_sei",
+          "ref": "p071_nao_sei"
+        }
+      ],
+      "is_crossing": true
+    },
+    "tava_mentindo": {
+      "pid": 70,
+      "twine_name": "Tava mentindo",
+      "file": "03_artefato_conversa/p070_tava_mentindo.rpy",
+      "canon_parent": "sei",
+      "canon_link": "Tava mentindo",
+      "children": [
+        {
+          "slug": "uma_semana_depois_optou_nao_perguntar",
+          "link": "1 semana depois (se optou por não perguntar se ela está pessoalmente envolvida na causa",
+          "nav": false,
+          "ref": "p090_uma_semana_depois_optou_nao_perguntar"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "sei_sim",
+          "ref": "p091_sei_sim"
+        }
+      ],
+      "is_crossing": true
+    },
+    "nao_sei": {
+      "pid": 71,
+      "twine_name": "Não sei",
+      "file": "03_artefato_conversa/p071_nao_sei.rpy",
+      "canon_parent": "sei",
+      "canon_link": "Não sei",
+      "children": [
+        {
+          "slug": "pior_que_nao",
+          "link": "Pior que não",
+          "nav": false,
+          "ref": "p069_pior_que_nao"
+        },
+        {
+          "slug": "sei_sim",
+          "link": "Sei sim",
+          "nav": false,
+          "ref": "p091_sei_sim"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "sei_como_e": {
+      "pid": 72,
+      "twine_name": "Sei como é...",
+      "file": "03_artefato_conversa/p072_sei_como_e.rpy",
+      "canon_parent": "pior_que_nao",
+      "canon_link": "Sei como é...",
+      "children": [
+        {
+          "slug": "quer_sair_pra_tomar_um_tacaca",
+          "link": "Quer sair pra tomar um tacacá?",
+          "nav": false,
+          "ref": "p077_quer_sair_pra_tomar_um_tacaca"
+        },
+        {
+          "slug": "que_tal_irmos_para_a_proxima_pergunta",
+          "link": "Que tal irmos para a próxima pergunta?",
+          "nav": false,
+          "ref": "p122_que_tal_irmos_para_a_proxima_pergunta"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "se_vira_da_um_jeito": {
+      "pid": 73,
+      "twine_name": "Se vira, dá um jeito!",
+      "file": "03_artefato_conversa/p073_se_vira_da_um_jeito.rpy",
+      "canon_parent": "voce_pode_simplesmente_dar_o_artefato",
+      "canon_link": "Se vira, dá um jeito!",
+      "children": [
+        {
+          "slug": "era_zoas",
+          "link": "Era zoas",
+          "nav": false,
+          "ref": "p092_era_zoas"
+        },
+        {
+          "slug": "azar_o_seu",
+          "link": "Azar o seu",
+          "nav": false,
+          "ref": "p094_azar_o_seu"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "pior_que_nao",
+          "ref": "p069_pior_que_nao"
+        }
+      ],
+      "is_crossing": true
+    },
+    "desculpe": {
+      "pid": 74,
+      "twine_name": "Desculpe!",
+      "file": "02_campus_mirante/p074_desculpe.rpy",
+      "canon_parent": "grande_coisa",
+      "canon_link": "Desculpe!",
+      "children": [
+        {
+          "slug": "quero_ajudar",
+          "link": "Quero ajudar",
+          "nav": false,
+          "ref": "p034_quero_ajudar"
+        },
+        {
+          "slug": "eu_adoraria_mas_estou_mesmo_aqui_por_outro_motivo",
+          "link": "Eu adoraria, mas estou mesmo aqui por outro motivo",
+          "nav": false,
+          "ref": "p079_eu_adoraria_mas_estou_mesmo_aqui_por_outro_motivo"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "interessante": {
+      "pid": 75,
+      "twine_name": "Interessante!",
+      "file": "04_encerramento/p075_interessante.rpy",
+      "canon_parent": "pacas",
+      "canon_link": "Interessante!",
+      "children": [
+        {
+          "slug": "na_verdade_agora_queria_pedir_sua_ajuda",
+          "link": "Na verdade, agora queria pedir sua ajuda com outra coisa",
+          "nav": false,
+          "ref": "p057_na_verdade_agora_queria_pedir_sua_ajuda"
+        },
+        {
+          "slug": "quer_sair_pra_tomar_um_tacaca",
+          "link": "Quer sair pra tomar um tacacá?",
+          "nav": false,
+          "ref": "p077_quer_sair_pra_tomar_um_tacaca"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "que_gracinha_voce": {
+      "pid": 76,
+      "twine_name": "Que gracinha você",
+      "file": "04_encerramento/p076_que_gracinha_voce.rpy",
+      "canon_parent": "pacas",
+      "canon_link": "Que gracinha você",
+      "children": [
+        {
+          "slug": "de_nada",
+          "link": "De nada!",
+          "nav": false,
+          "ref": "p081_de_nada"
+        },
+        {
+          "slug": "quer_sair_pra_tomar_um_tacaca",
+          "link": "Quer sair pra tomar um tacacá?",
+          "nav": false,
+          "ref": "p077_quer_sair_pra_tomar_um_tacaca"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "quer_sair_pra_tomar_um_tacaca": {
+      "pid": 77,
+      "twine_name": "Quer sair pra tomar um tacacá?",
+      "file": "03_artefato_conversa/p077_quer_sair_pra_tomar_um_tacaca.rpy",
+      "canon_parent": "sei_como_e",
+      "canon_link": "Quer sair pra tomar um tacacá?",
+      "children": [
+        {
+          "slug": "pode_ser_ufpa_veropesinho",
+          "link": "Pode ser aqui mesmo na UFPA, no Veropesinho",
+          "nav": false,
+          "ref": "p088_pode_ser_ufpa_veropesinho"
+        },
+        {
+          "slug": "pode_ser_ver_o_peso",
+          "link": "Pode ser outro dia lá no Ver-o-peso",
+          "nav": false,
+          "ref": "p089_pode_ser_ver_o_peso"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "interessante",
+          "ref": "p075_interessante"
+        },
+        {
+          "slug": "que_gracinha_voce",
+          "ref": "p076_que_gracinha_voce"
+        }
+      ],
+      "is_crossing": true
+    },
+    "vamos_para_a_proxima_pergunta": {
+      "pid": 78,
+      "twine_name": "Vamos para a próxima pergunta",
+      "file": "03_artefato_conversa/p078_vamos_para_a_proxima_pergunta.rpy",
+      "canon_parent": "isso_me_lembra_de_um_certo_arfefato",
+      "canon_link": "Vamos para a próxima pergunta",
+      "children": [
+        {
+          "slug": "relevantes",
+          "link": "Relevantes",
+          "nav": false,
+          "ref": "p098_relevantes"
+        },
+        {
+          "slug": "irrelevantes",
+          "link": "Irrelevantes",
+          "nav": false,
+          "ref": "p099_irrelevantes"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "acho_que_nem_ele_sabe",
+          "ref": "p128_acho_que_nem_ele_sabe"
+        },
+        {
+          "slug": "e_estranho_mesmo",
+          "ref": "p130_e_estranho_mesmo"
+        },
+        {
+          "slug": "ele_pode_alterar_a_realidade",
+          "ref": "p133_ele_pode_alterar_a_realidade"
+        },
+        {
+          "slug": "hmm",
+          "ref": "p048_hmm"
+        },
+        {
+          "slug": "na_verdade_nem_eu_sei",
+          "ref": "p104_na_verdade_nem_eu_sei"
+        },
+        {
+          "slug": "nao_foi_por_nada",
+          "ref": "p056_nao_foi_por_nada"
+        },
+        {
+          "slug": "nao_mesmo_sinto_muito",
+          "ref": "p085_nao_mesmo_sinto_muito"
+        },
+        {
+          "slug": "nao_quero_mesmo_me_envolver",
+          "ref": "p097_nao_quero_mesmo_me_envolver"
+        },
+        {
+          "slug": "nao_sei_como_ele_se_parece",
+          "ref": "p126_nao_sei_como_ele_se_parece"
+        },
+        {
+          "slug": "nao_sei_exatamente_como_ele_e",
+          "ref": "p116_nao_sei_exatamente_como_ele_e"
+        },
+        {
+          "slug": "podemos_procurar_por_ele",
+          "ref": "p131_podemos_procurar_por_ele"
+        },
+        {
+          "slug": "rompendo_o_veu_entre_o_mundo_fisico_e_o_astral",
+          "ref": "p121_rompendo_o_veu_entre_o_mundo_fisico_e_o_astral"
+        },
+        {
+          "slug": "so_sigo_ordens",
+          "ref": "p129_so_sigo_ordens"
+        },
+        {
+          "slug": "voce_pode_simplesmente_dar_o_artefato",
+          "ref": "p106_voce_pode_simplesmente_dar_o_artefato"
+        }
+      ],
+      "is_crossing": true
+    },
+    "eu_adoraria_mas_estou_mesmo_aqui_por_outro_motivo": {
+      "pid": 79,
+      "twine_name": "Eu adoraria, mas estou mesmo aqui por outro motivo",
+      "file": "02_campus_mirante/p079_eu_adoraria_mas_estou_mesmo_aqui_por_outro_motivo.rpy",
+      "canon_parent": "desculpe",
+      "canon_link": "Eu adoraria, mas estou mesmo aqui por outro motivo",
+      "children": [
+        {
+          "slug": "so_to_passeando",
+          "link": "Só tô passeando",
+          "nav": false,
+          "ref": "p084_so_to_passeando"
+        },
+        {
+          "slug": "preciso_que_me_empreste_um_artefato",
+          "link": "Preciso que me empreste um artefato seu para a minha pesquisa",
+          "nav": false,
+          "ref": "p082_preciso_que_me_empreste_um_artefato"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "gracinha_e_voce": {
+      "pid": 80,
+      "twine_name": "Gracinha é você",
+      "file": "02_campus_mirante/p080_gracinha_e_voce.rpy",
+      "canon_parent": "que_nada_vamo_sim",
+      "canon_link": "Gracinha é você",
+      "children": [
+        {
+          "slug": "feito",
+          "link": "Feito",
+          "nav": false,
+          "ref": "p054_feito"
+        },
+        {
+          "slug": "agora_preciso_da_sua_ajuda",
+          "link": "Agora preciso da sua ajuda",
+          "nav": false,
+          "ref": "p055_agora_preciso_da_sua_ajuda"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "de_nada": {
+      "pid": 81,
+      "twine_name": "De nada!",
+      "file": "04_encerramento/p081_de_nada.rpy",
+      "canon_parent": "que_gracinha_voce",
+      "canon_link": "De nada!",
+      "children": [
+        {
+          "slug": "uma_semana_depois_optou_nao_perguntar",
+          "link": "1 semana depois (se optou por não perguntar se ela está pessoalmente envolvida na causa",
+          "nav": false,
+          "ref": "p090_uma_semana_depois_optou_nao_perguntar"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "preciso_que_me_empreste_um_artefato": {
+      "pid": 82,
+      "twine_name": "Preciso que me empreste um artefato seu para a minha pesquisa",
+      "file": "03_artefato_conversa/p082_preciso_que_me_empreste_um_artefato.rpy",
+      "canon_parent": "eu_adoraria_mas_estou_mesmo_aqui_por_outro_motivo",
+      "canon_link": "Preciso que me empreste um artefato seu para a minha pesquisa",
+      "children": [
+        {
+          "slug": "e_uma_mao_lava_a_outra",
+          "link": "É, uma mão lava a outra",
+          "nav": false,
+          "ref": "p095_e_uma_mao_lava_a_outra"
+        },
+        {
+          "slug": "primeiro_voce",
+          "link": "Primeiro você",
+          "nav": false,
+          "ref": "p096_primeiro_voce"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "nao_quero_mesmo_me_envolver",
+          "ref": "p097_nao_quero_mesmo_me_envolver"
+        }
+      ],
+      "is_crossing": true
+    },
+    "nao_obrigado": {
+      "pid": 83,
+      "twine_name": "Não, obrigado",
+      "file": "03_artefato_conversa/p083_nao_obrigado.rpy",
+      "canon_parent": null,
+      "canon_link": null,
+      "children": [
+        {
+          "slug": "vou_dar_uma_chance",
+          "link": "Vou dar uma chance",
+          "nav": false,
+          "ref": "p093_vou_dar_uma_chance"
+        },
+        {
+          "slug": "nao_mesmo_sinto_muito",
+          "link": "Não mesmo, sinto muito",
+          "nav": false,
+          "ref": "p085_nao_mesmo_sinto_muito"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "so_to_passeando": {
+      "pid": 84,
+      "twine_name": "Só tô passeando",
+      "file": "02_campus_mirante/p084_so_to_passeando.rpy",
+      "canon_parent": "eu_adoraria_mas_estou_mesmo_aqui_por_outro_motivo",
+      "canon_link": "Só tô passeando",
+      "children": [
+        {
+          "slug": "vou_dar_uma_chance",
+          "link": "Vou dar uma chance",
+          "nav": false,
+          "ref": "p093_vou_dar_uma_chance"
+        },
+        {
+          "slug": "nao_quero_mesmo_me_envolver",
+          "link": "Não quero mesmo me envolver",
+          "nav": false,
+          "ref": "p097_nao_quero_mesmo_me_envolver"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "nao_mesmo_sinto_muito": {
+      "pid": 85,
+      "twine_name": "Não mesmo, sinto muito",
+      "file": "03_artefato_conversa/p085_nao_mesmo_sinto_muito.rpy",
+      "canon_parent": null,
+      "canon_link": null,
+      "children": [
+        {
+          "slug": "vamos_para_a_proxima_pergunta",
+          "link": "Vamos para a próxima pergunta",
+          "nav": false,
+          "ref": "p078_vamos_para_a_proxima_pergunta"
+        },
+        {
+          "slug": "vou_dar_uma_chance",
+          "link": "Vou dar uma chance",
+          "nav": false,
+          "ref": "p093_vou_dar_uma_chance"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "nao_obrigado",
+          "ref": "p083_nao_obrigado"
+        }
+      ],
+      "is_crossing": true
+    },
+    "historia": {
+      "pid": 86,
+      "twine_name": "(história}",
+      "file": "04_encerramento/p086_historia.rpy",
+      "canon_parent": null,
+      "canon_link": null,
+      "children": [],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "uma_semana_depois": {
+      "pid": 87,
+      "twine_name": "1 semana depois",
+      "file": "04_encerramento/p087_uma_semana_depois.rpy",
+      "canon_parent": null,
+      "canon_link": null,
+      "children": [],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "pode_ser_ufpa_veropesinho": {
+      "pid": 88,
+      "twine_name": "Pode ser aqui mesmo na UFPA, no Veropesinho",
+      "file": "04_encerramento/p088_pode_ser_ufpa_veropesinho.rpy",
+      "canon_parent": "quer_sair_pra_tomar_um_tacaca",
+      "canon_link": "Pode ser aqui mesmo na UFPA, no Veropesinho",
+      "children": [
+        {
+          "slug": "beleza",
+          "link": "Beleza",
+          "nav": false,
+          "ref": "p123_beleza"
+        },
+        {
+          "slug": "vamo_e_agora",
+          "link": "Vamo é agora",
+          "nav": false,
+          "ref": "p124_vamo_e_agora"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "pode_ser_ver_o_peso": {
+      "pid": 89,
+      "twine_name": "Pode ser outro dia lá no Ver-o-peso",
+      "file": "04_encerramento/p089_pode_ser_ver_o_peso.rpy",
+      "canon_parent": "quer_sair_pra_tomar_um_tacaca",
+      "canon_link": "Pode ser outro dia lá no Ver-o-peso",
+      "children": [
+        {
+          "slug": "uma_semana_depois_optou_nao_perguntar",
+          "link": "1 semana depois (se optou por não perguntar se ela está pessoalmente envolvida na causa",
+          "nav": false,
+          "ref": "p090_uma_semana_depois_optou_nao_perguntar"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "uma_semana_depois_optou_nao_perguntar": {
+      "pid": 90,
+      "twine_name": "1 semana depois (se optou por não perguntar se ela está pessoalmente envolvida na causa",
+      "file": "04_encerramento/p090_uma_semana_depois_optou_nao_perguntar.rpy",
+      "canon_parent": "era_zoas",
+      "canon_link": "1 semana depois (se optou por não perguntar se ela está pessoalmente envolvida na causa",
+      "children": [],
+      "other_parents": [
+        {
+          "slug": "de_nada",
+          "ref": "p081_de_nada"
+        },
+        {
+          "slug": "pode_ser_ver_o_peso",
+          "ref": "p089_pode_ser_ver_o_peso"
+        },
+        {
+          "slug": "tava_mentindo",
+          "ref": "p070_tava_mentindo"
+        }
+      ],
+      "is_crossing": true
+    },
+    "sei_sim": {
+      "pid": 91,
+      "twine_name": "Sei sim",
+      "file": "03_artefato_conversa/p091_sei_sim.rpy",
+      "canon_parent": "nao_sei",
+      "canon_link": "Sei sim",
+      "children": [
+        {
+          "slug": "tava_mentindo",
+          "link": "Tava mentindo",
+          "nav": false,
+          "ref": "p070_tava_mentindo"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "era_zoas": {
+      "pid": 92,
+      "twine_name": "Era zoas",
+      "file": "03_artefato_conversa/p092_era_zoas.rpy",
+      "canon_parent": "se_vira_da_um_jeito",
+      "canon_link": "Era zoas",
+      "children": [
+        {
+          "slug": "uma_semana_depois_optou_nao_perguntar",
+          "link": "1 semana depois (se optou por não perguntar se ela está pessoalmente envolvida na causa",
+          "nav": false,
+          "ref": "p090_uma_semana_depois_optou_nao_perguntar"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "vou_dar_uma_chance": {
+      "pid": 93,
+      "twine_name": "Vou dar uma chance",
+      "file": "02_campus_mirante/p093_vou_dar_uma_chance.rpy",
+      "canon_parent": "so_to_passeando",
+      "canon_link": "Vou dar uma chance",
+      "children": [
+        {
+          "slug": "agitar_nas_redes",
+          "link": "Agitar nas redes",
+          "nav": false,
+          "ref": "p040_agitar_nas_redes"
+        },
+        {
+          "slug": "pix_solidario_para_ajudar_nas_ocupacoes",
+          "link": "Pix solidário para ajudar nas ocupações",
+          "nav": false,
+          "ref": "p042_pix_solidario_para_ajudar_nas_ocupacoes"
+        },
+        {
+          "slug": "ajudar_a_disseminar_em_sp",
+          "link": "Ajudar a disseminar em SP, o maior hub do Brasil",
+          "nav": false,
+          "ref": "p041_ajudar_a_disseminar_em_sp"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "acho_que_nem_ele_sabe",
+          "ref": "p128_acho_que_nem_ele_sabe"
+        },
+        {
+          "slug": "e_estranho_mesmo",
+          "ref": "p130_e_estranho_mesmo"
+        },
+        {
+          "slug": "e_uma_mao_lava_a_outra",
+          "ref": "p095_e_uma_mao_lava_a_outra"
+        },
+        {
+          "slug": "nao_mesmo_sinto_muito",
+          "ref": "p085_nao_mesmo_sinto_muito"
+        },
+        {
+          "slug": "nao_obrigado",
+          "ref": "p083_nao_obrigado"
+        },
+        {
+          "slug": "nao_quero_mesmo_me_envolver",
+          "ref": "p097_nao_quero_mesmo_me_envolver"
+        },
+        {
+          "slug": "podemos_procurar_por_ele",
+          "ref": "p131_podemos_procurar_por_ele"
+        }
+      ],
+      "is_crossing": true
+    },
+    "azar_o_seu": {
+      "pid": 94,
+      "twine_name": "Azar o seu",
+      "file": "03_artefato_conversa/p094_azar_o_seu.rpy",
+      "canon_parent": "se_vira_da_um_jeito",
+      "canon_link": "Azar o seu",
+      "children": [
+        {
+          "slug": "game_over_continuar_alt",
+          "link": "⇨",
+          "nav": true,
+          "ref": "p043_game_over_continuar_alt"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "e_uma_mao_lava_a_outra": {
+      "pid": 95,
+      "twine_name": "É, uma mão lava a outra",
+      "file": "03_artefato_conversa/p095_e_uma_mao_lava_a_outra.rpy",
+      "canon_parent": "preciso_que_me_empreste_um_artefato",
+      "canon_link": "É, uma mão lava a outra",
+      "children": [
+        {
+          "slug": "vou_dar_uma_chance",
+          "link": "Vou dar uma chance",
+          "nav": false,
+          "ref": "p093_vou_dar_uma_chance"
+        },
+        {
+          "slug": "primeiro_voce",
+          "link": "Primeiro você",
+          "nav": false,
+          "ref": "p096_primeiro_voce"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "primeiro_voce": {
+      "pid": 96,
+      "twine_name": "Primeiro você",
+      "file": "03_artefato_conversa/p096_primeiro_voce.rpy",
+      "canon_parent": "preciso_que_me_empreste_um_artefato",
+      "canon_link": "Primeiro você",
+      "children": [
+        {
+          "slug": "nao_sei_exatamente_como_ele_e",
+          "link": "Não sei exatamente como ele é",
+          "nav": false,
+          "ref": "p116_nao_sei_exatamente_como_ele_e"
+        },
+        {
+          "slug": "e_um_artefato_magico",
+          "link": "É um artefato mágico",
+          "nav": false,
+          "ref": "p117_e_um_artefato_magico"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "e_uma_mao_lava_a_outra",
+          "ref": "p095_e_uma_mao_lava_a_outra"
+        }
+      ],
+      "is_crossing": true
+    },
+    "nao_quero_mesmo_me_envolver": {
+      "pid": 97,
+      "twine_name": "Não quero mesmo me envolver",
+      "file": "02_campus_mirante/p097_nao_quero_mesmo_me_envolver.rpy",
+      "canon_parent": "so_to_passeando",
+      "canon_link": "Não quero mesmo me envolver",
+      "children": [
+        {
+          "slug": "vamos_para_a_proxima_pergunta",
+          "link": "Vamos para a próxima pergunta",
+          "nav": false,
+          "ref": "p078_vamos_para_a_proxima_pergunta"
+        },
+        {
+          "slug": "vou_dar_uma_chance",
+          "link": "Vou dar uma chance",
+          "nav": false,
+          "ref": "p093_vou_dar_uma_chance"
+        },
+        {
+          "slug": "preciso_que_me_empreste_um_artefato",
+          "link": "Preciso que me empreste um artefato seu para a minha pesquisa",
+          "nav": false,
+          "ref": "p082_preciso_que_me_empreste_um_artefato"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "relevantes": {
+      "pid": 98,
+      "twine_name": "Relevantes",
+      "file": "03_artefato_conversa/p098_relevantes.rpy",
+      "canon_parent": "vamos_para_a_proxima_pergunta",
+      "canon_link": "Relevantes",
+      "children": [
+        {
+          "slug": "game_over_continuar",
+          "link": "➞",
+          "nav": true,
+          "ref": "p009_game_over_continuar"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "que_tal_irmos_para_a_proxima_pergunta",
+          "ref": "p122_que_tal_irmos_para_a_proxima_pergunta"
+        }
+      ],
+      "is_crossing": true
+    },
+    "irrelevantes": {
+      "pid": 99,
+      "twine_name": "Irrelevantes",
+      "file": "03_artefato_conversa/p099_irrelevantes.rpy",
+      "canon_parent": "vamos_para_a_proxima_pergunta",
+      "canon_link": "Irrelevantes",
+      "children": [
+        {
+          "slug": "game_over_continuar",
+          "link": "➞",
+          "nav": true,
+          "ref": "p009_game_over_continuar"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "que_tal_irmos_para_a_proxima_pergunta",
+          "ref": "p122_que_tal_irmos_para_a_proxima_pergunta"
+        }
+      ],
+      "is_crossing": true
+    },
+    "isso_me_lembra_de_um_certo_arfefato": {
+      "pid": 100,
+      "twine_name": "Isso me lembra de um certo arfefato",
+      "file": "03_artefato_conversa/p100_isso_me_lembra_de_um_certo_arfefato.rpy",
+      "canon_parent": "ha_um_significado_mistico",
+      "canon_link": "Isso me lembra de um certo arfefato",
+      "children": [
+        {
+          "slug": "um_que_esta_na_sua_posse",
+          "link": "Um que está na sua posse",
+          "nav": false,
+          "ref": "p101_um_que_esta_na_sua_posse"
+        },
+        {
+          "slug": "vamos_para_a_proxima_pergunta",
+          "link": "Vamos para a próxima pergunta",
+          "nav": false,
+          "ref": "p078_vamos_para_a_proxima_pergunta"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "um_que_esta_na_sua_posse": {
+      "pid": 101,
+      "twine_name": "Um que está na sua posse",
+      "file": "03_artefato_conversa/p101_um_que_esta_na_sua_posse.rpy",
+      "canon_parent": "isso_me_lembra_de_um_certo_arfefato",
+      "canon_link": "Um que está na sua posse",
+      "children": [
+        {
+          "slug": "meu_professor_me_disse",
+          "link": "Meu professor me disse",
+          "nav": false,
+          "ref": "p102_meu_professor_me_disse"
+        },
+        {
+          "slug": "nao_posso_te_falar",
+          "link": "Não posso te falar",
+          "nav": false,
+          "ref": "p103_nao_posso_te_falar"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "meu_professor_me_disse": {
+      "pid": 102,
+      "twine_name": "Meu professor me disse",
+      "file": "03_artefato_conversa/p102_meu_professor_me_disse.rpy",
+      "canon_parent": "um_que_esta_na_sua_posse",
+      "canon_link": "Meu professor me disse",
+      "children": [
+        {
+          "slug": "nao_sei_responder_nenhuma_dessas_perguntas",
+          "link": "Não sei responder nenhuma dessas perguntas",
+          "nav": false,
+          "ref": "p105_nao_sei_responder_nenhuma_dessas_perguntas"
+        },
+        {
+          "slug": "voce_pode_simplesmente_dar_o_artefato",
+          "link": "Você pode simplesmente dar o artefato??",
+          "nav": false,
+          "ref": "p106_voce_pode_simplesmente_dar_o_artefato"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "nao_posso_te_falar": {
+      "pid": 103,
+      "twine_name": "Não posso te falar",
+      "file": "03_artefato_conversa/p103_nao_posso_te_falar.rpy",
+      "canon_parent": "um_que_esta_na_sua_posse",
+      "canon_link": "Não posso te falar",
+      "children": [
+        {
+          "slug": "segredo_de_pesquisa",
+          "link": "Segredo de pesquisa",
+          "nav": false,
+          "ref": "p107_segredo_de_pesquisa"
+        },
+        {
+          "slug": "na_verdade_nem_eu_sei",
+          "link": "Na verdade, nem eu sei",
+          "nav": false,
+          "ref": "p104_na_verdade_nem_eu_sei"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "na_verdade_nem_eu_sei": {
+      "pid": 104,
+      "twine_name": "Na verdade, nem eu sei",
+      "file": "03_artefato_conversa/p104_na_verdade_nem_eu_sei.rpy",
+      "canon_parent": "nao_posso_te_falar",
+      "canon_link": "Na verdade, nem eu sei",
+      "children": [
+        {
+          "slug": "vamos_para_a_proxima_pergunta",
+          "link": "Vamos para a próxima pergunta",
+          "nav": false,
+          "ref": "p078_vamos_para_a_proxima_pergunta"
+        },
+        {
+          "slug": "voce_pode_simplesmente_dar_o_artefato",
+          "link": "Você pode simplesmente dar o artefato??",
+          "nav": false,
+          "ref": "p106_voce_pode_simplesmente_dar_o_artefato"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "nao_sei_responder_nenhuma_dessas_perguntas": {
+      "pid": 105,
+      "twine_name": "Não sei responder nenhuma dessas perguntas",
+      "file": "03_artefato_conversa/p105_nao_sei_responder_nenhuma_dessas_perguntas.rpy",
+      "canon_parent": "meu_professor_me_disse",
+      "canon_link": "Não sei responder nenhuma dessas perguntas",
+      "children": [
+        {
+          "slug": "ele_nao_me_falou",
+          "link": "Ele não me falou",
+          "nav": false,
+          "ref": "p108_ele_nao_me_falou"
+        },
+        {
+          "slug": "acho_que_nem_ele_mesmo_sabe",
+          "link": "Acho que nem ele mesmo sabe",
+          "nav": false,
+          "ref": "p109_acho_que_nem_ele_mesmo_sabe"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "voce_pode_simplesmente_dar_o_artefato": {
+      "pid": 106,
+      "twine_name": "Você pode simplesmente dar o artefato??",
+      "file": "03_artefato_conversa/p106_voce_pode_simplesmente_dar_o_artefato.rpy",
+      "canon_parent": "meu_professor_me_disse",
+      "canon_link": "Você pode simplesmente dar o artefato??",
+      "children": [
+        {
+          "slug": "vamos_para_a_proxima_pergunta",
+          "link": "Vamos para a próxima pergunta",
+          "nav": false,
+          "ref": "p078_vamos_para_a_proxima_pergunta"
+        },
+        {
+          "slug": "se_vira_da_um_jeito",
+          "link": "Se vira, dá um jeito!",
+          "nav": false,
+          "ref": "p073_se_vira_da_um_jeito"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "na_verdade_nem_eu_sei",
+          "ref": "p104_na_verdade_nem_eu_sei"
+        }
+      ],
+      "is_crossing": true
+    },
+    "segredo_de_pesquisa": {
+      "pid": 107,
+      "twine_name": "Segredo de pesquisa",
+      "file": "03_artefato_conversa/p107_segredo_de_pesquisa.rpy",
+      "canon_parent": "nao_posso_te_falar",
+      "canon_link": "Segredo de pesquisa",
+      "children": [
+        {
+          "slug": "ele_nao_me_falou",
+          "link": "Ele não me falou",
+          "nav": false,
+          "ref": "p108_ele_nao_me_falou"
+        },
+        {
+          "slug": "acho_que_nem_ele_mesmo_sabe",
+          "link": "Acho que nem ele mesmo sabe",
+          "nav": false,
+          "ref": "p109_acho_que_nem_ele_mesmo_sabe"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "ele_nao_me_falou": {
+      "pid": 108,
+      "twine_name": "Ele não me falou",
+      "file": "03_artefato_conversa/p108_ele_nao_me_falou.rpy",
+      "canon_parent": "nao_sei_responder_nenhuma_dessas_perguntas",
+      "canon_link": "Ele não me falou",
+      "children": [
+        {
+          "slug": "tambem_desconfiei",
+          "link": "Também desconfiei...",
+          "nav": false,
+          "ref": "p112_tambem_desconfiei"
+        },
+        {
+          "slug": "nao_questiono_meu_trabalho",
+          "link": "Não questiono meu trabalho",
+          "nav": false,
+          "ref": "p113_nao_questiono_meu_trabalho"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "segredo_de_pesquisa",
+          "ref": "p107_segredo_de_pesquisa"
+        }
+      ],
+      "is_crossing": true
+    },
+    "acho_que_nem_ele_mesmo_sabe": {
+      "pid": 109,
+      "twine_name": "Acho que nem ele mesmo sabe",
+      "file": "03_artefato_conversa/p109_acho_que_nem_ele_mesmo_sabe.rpy",
+      "canon_parent": "nao_sei_responder_nenhuma_dessas_perguntas",
+      "canon_link": "Acho que nem ele mesmo sabe",
+      "children": [
+        {
+          "slug": "pois_e_vai_saber",
+          "link": "Pois é, vai saber",
+          "nav": false,
+          "ref": "p110_pois_e_vai_saber"
+        },
+        {
+          "slug": "parece_que_o_artefato_tem_propriedades_magicas",
+          "link": "Parece que o artefato tem propriedades mágicas",
+          "nav": false,
+          "ref": "p111_parece_que_o_artefato_tem_propriedades_magicas"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "segredo_de_pesquisa",
+          "ref": "p107_segredo_de_pesquisa"
+        }
+      ],
+      "is_crossing": true
+    },
+    "pois_e_vai_saber": {
+      "pid": 110,
+      "twine_name": "Pois é, vai saber",
+      "file": "03_artefato_conversa/p110_pois_e_vai_saber.rpy",
+      "canon_parent": "acho_que_nem_ele_mesmo_sabe",
+      "canon_link": "Pois é, vai saber",
+      "children": [
+        {
+          "slug": "espera",
+          "link": "Espera",
+          "nav": false,
+          "ref": "p114_espera"
+        },
+        {
+          "slug": "tchau_tchau",
+          "link": "Tchau, tchau",
+          "nav": false,
+          "ref": "p115_tchau_tchau"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "parece_que_o_artefato_tem_propriedades_magicas": {
+      "pid": 111,
+      "twine_name": "Parece que o artefato tem propriedades mágicas",
+      "file": "03_artefato_conversa/p111_parece_que_o_artefato_tem_propriedades_magicas.rpy",
+      "canon_parent": "acho_que_nem_ele_mesmo_sabe",
+      "canon_link": "Parece que o artefato tem propriedades mágicas",
+      "children": [
+        {
+          "slug": "ele_pode_alterar_a_realidade",
+          "link": "Ele pode alterar a realidade",
+          "nav": false,
+          "ref": "p133_ele_pode_alterar_a_realidade"
+        },
+        {
+          "slug": "nao_faco_ideia",
+          "link": "Não faço ideia",
+          "nav": false,
+          "ref": "p134_nao_faco_ideia"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "tambem_desconfiei": {
+      "pid": 112,
+      "twine_name": "Também desconfiei...",
+      "file": "03_artefato_conversa/p112_tambem_desconfiei.rpy",
+      "canon_parent": "ele_nao_me_falou",
+      "canon_link": "Também desconfiei...",
+      "children": [
+        {
+          "slug": "espera",
+          "link": "Espera",
+          "nav": false,
+          "ref": "p114_espera"
+        },
+        {
+          "slug": "tchau_tchau",
+          "link": "Tchau, tchau",
+          "nav": false,
+          "ref": "p115_tchau_tchau"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "nao_questiono_meu_trabalho": {
+      "pid": 113,
+      "twine_name": "Não questiono meu trabalho",
+      "file": "03_artefato_conversa/p113_nao_questiono_meu_trabalho.rpy",
+      "canon_parent": "ele_nao_me_falou",
+      "canon_link": "Não questiono meu trabalho",
+      "children": [
+        {
+          "slug": "espera",
+          "link": "Espera",
+          "nav": false,
+          "ref": "p114_espera"
+        },
+        {
+          "slug": "tchau_tchau",
+          "link": "Tchau, tchau",
+          "nav": false,
+          "ref": "p115_tchau_tchau"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "espera": {
+      "pid": 114,
+      "twine_name": "Espera",
+      "file": "03_artefato_conversa/p114_espera.rpy",
+      "canon_parent": "tambem_desconfiei",
+      "canon_link": "Espera",
+      "children": [
+        {
+          "slug": "game_over_continuar_alt",
+          "link": "⇨",
+          "nav": true,
+          "ref": "p043_game_over_continuar_alt"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "nao_questiono_meu_trabalho",
+          "ref": "p113_nao_questiono_meu_trabalho"
+        },
+        {
+          "slug": "pois_e_vai_saber",
+          "ref": "p110_pois_e_vai_saber"
+        }
+      ],
+      "is_crossing": true
+    },
+    "tchau_tchau": {
+      "pid": 115,
+      "twine_name": "Tchau, tchau",
+      "file": "03_artefato_conversa/p115_tchau_tchau.rpy",
+      "canon_parent": "tambem_desconfiei",
+      "canon_link": "Tchau, tchau",
+      "children": [
+        {
+          "slug": "game_over_continuar_alt",
+          "link": "⇨",
+          "nav": true,
+          "ref": "p043_game_over_continuar_alt"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "nao_questiono_meu_trabalho",
+          "ref": "p113_nao_questiono_meu_trabalho"
+        },
+        {
+          "slug": "pois_e_vai_saber",
+          "ref": "p110_pois_e_vai_saber"
+        }
+      ],
+      "is_crossing": true
+    },
+    "nao_sei_exatamente_como_ele_e": {
+      "pid": 116,
+      "twine_name": "Não sei exatamente como ele é",
+      "file": "03_artefato_conversa/p116_nao_sei_exatamente_como_ele_e.rpy",
+      "canon_parent": "primeiro_voce",
+      "canon_link": "Não sei exatamente como ele é",
+      "children": [
+        {
+          "slug": "vamos_para_a_proxima_pergunta",
+          "link": "Vamos para a próxima pergunta",
+          "nav": false,
+          "ref": "p078_vamos_para_a_proxima_pergunta"
+        },
+        {
+          "slug": "e_um_artefato_magico",
+          "link": "É um artefato mágico",
+          "nav": false,
+          "ref": "p117_e_um_artefato_magico"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "e_um_artefato_magico": {
+      "pid": 117,
+      "twine_name": "É um artefato mágico",
+      "file": "03_artefato_conversa/p117_e_um_artefato_magico.rpy",
+      "canon_parent": "primeiro_voce",
+      "canon_link": "É um artefato mágico",
+      "children": [
+        {
+          "slug": "de_fato",
+          "link": "De fato",
+          "nav": false,
+          "ref": "p118_de_fato"
+        },
+        {
+          "slug": "esse_pode_alterar_a_realidade",
+          "link": "Esse pode alterar a realidade",
+          "nav": false,
+          "ref": "p119_esse_pode_alterar_a_realidade"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "nao_sei_exatamente_como_ele_e",
+          "ref": "p116_nao_sei_exatamente_como_ele_e"
+        }
+      ],
+      "is_crossing": true
+    },
+    "de_fato": {
+      "pid": 118,
+      "twine_name": "De fato",
+      "file": "03_artefato_conversa/p118_de_fato.rpy",
+      "canon_parent": "e_um_artefato_magico",
+      "canon_link": "De fato",
+      "children": [
+        {
+          "slug": "nao_sei_como_ele_se_parece",
+          "link": "Não sei como ele se parece",
+          "nav": false,
+          "ref": "p126_nao_sei_como_ele_se_parece"
+        },
+        {
+          "slug": "meu_professor_nao_disse",
+          "link": "Meu professor não disse",
+          "nav": false,
+          "ref": "p127_meu_professor_nao_disse"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "esse_pode_alterar_a_realidade": {
+      "pid": 119,
+      "twine_name": "Esse pode alterar a realidade",
+      "file": "03_artefato_conversa/p119_esse_pode_alterar_a_realidade.rpy",
+      "canon_parent": "e_um_artefato_magico",
+      "canon_link": "Esse pode alterar a realidade",
+      "children": [
+        {
+          "slug": "rompendo_o_veu_entre_o_mundo_fisico_e_o_astral",
+          "link": "Rompendo o véu entre o mundo físico e o astral",
+          "nav": false,
+          "ref": "p121_rompendo_o_veu_entre_o_mundo_fisico_e_o_astral"
+        },
+        {
+          "slug": "nao_faco_a_minima_ideia",
+          "link": "Não faço a mínima ideia",
+          "nav": false,
+          "ref": "p120_nao_faco_a_minima_ideia"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "nao_faco_a_minima_ideia": {
+      "pid": 120,
+      "twine_name": "Não faço a mínima ideia",
+      "file": "03_artefato_conversa/p120_nao_faco_a_minima_ideia.rpy",
+      "canon_parent": "esse_pode_alterar_a_realidade",
+      "canon_link": "Não faço a mínima ideia",
+      "children": [
+        {
+          "slug": "game_over_continuar",
+          "link": "➞",
+          "nav": true,
+          "ref": "p009_game_over_continuar"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "rompendo_o_veu_entre_o_mundo_fisico_e_o_astral": {
+      "pid": 121,
+      "twine_name": "Rompendo o véu entre o mundo físico e o astral",
+      "file": "03_artefato_conversa/p121_rompendo_o_veu_entre_o_mundo_fisico_e_o_astral.rpy",
+      "canon_parent": "esse_pode_alterar_a_realidade",
+      "canon_link": "Rompendo o véu entre o mundo físico e o astral",
+      "children": [
+        {
+          "slug": "vamos_para_a_proxima_pergunta",
+          "link": "Vamos para a próxima pergunta",
+          "nav": false,
+          "ref": "p078_vamos_para_a_proxima_pergunta"
+        },
+        {
+          "slug": "sem_problemas_ate_mais",
+          "link": "Sem problemas, até mais!",
+          "nav": false,
+          "ref": "p132_sem_problemas_ate_mais"
+        },
+        {
+          "slug": "quero_ajudar",
+          "link": "Quero ajudar",
+          "nav": false,
+          "ref": "p034_quero_ajudar"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "que_tal_irmos_para_a_proxima_pergunta": {
+      "pid": 122,
+      "twine_name": "Que tal irmos para a próxima pergunta?",
+      "file": "03_artefato_conversa/p122_que_tal_irmos_para_a_proxima_pergunta.rpy",
+      "canon_parent": "sei_como_e",
+      "canon_link": "Que tal irmos para a próxima pergunta?",
+      "children": [
+        {
+          "slug": "relevantes",
+          "link": "Relevantes",
+          "nav": false,
+          "ref": "p098_relevantes"
+        },
+        {
+          "slug": "irrelevantes",
+          "link": "Irrelevantes",
+          "nav": false,
+          "ref": "p099_irrelevantes"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "beleza": {
+      "pid": 123,
+      "twine_name": "Beleza",
+      "file": "04_encerramento/p123_beleza.rpy",
+      "canon_parent": "pode_ser_ufpa_veropesinho",
+      "canon_link": "Beleza",
+      "children": [
+        {
+          "slug": "veropesinho",
+          "link": "Veropesinho",
+          "nav": false,
+          "ref": "p125_veropesinho"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "vamo_e_agora": {
+      "pid": 124,
+      "twine_name": "Vamo é agora",
+      "file": "04_encerramento/p124_vamo_e_agora.rpy",
+      "canon_parent": "pode_ser_ufpa_veropesinho",
+      "canon_link": "Vamo é agora",
+      "children": [
+        {
+          "slug": "veropesinho",
+          "link": "Veropesinho",
+          "nav": false,
+          "ref": "p125_veropesinho"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "veropesinho": {
+      "pid": 125,
+      "twine_name": "Veropesinho",
+      "file": "04_encerramento/p125_veropesinho.rpy",
+      "canon_parent": "beleza",
+      "canon_link": "Veropesinho",
+      "children": [],
+      "other_parents": [
+        {
+          "slug": "vamo_e_agora",
+          "ref": "p124_vamo_e_agora"
+        }
+      ],
+      "is_crossing": true
+    },
+    "nao_sei_como_ele_se_parece": {
+      "pid": 126,
+      "twine_name": "Não sei como ele se parece",
+      "file": "03_artefato_conversa/p126_nao_sei_como_ele_se_parece.rpy",
+      "canon_parent": "de_fato",
+      "canon_link": "Não sei como ele se parece",
+      "children": [
+        {
+          "slug": "vamos_para_a_proxima_pergunta",
+          "link": "Vamos para a próxima pergunta",
+          "nav": false,
+          "ref": "p078_vamos_para_a_proxima_pergunta"
+        },
+        {
+          "slug": "podemos_procurar_por_ele",
+          "link": "Podemos procurar por ele?",
+          "nav": false,
+          "ref": "p131_podemos_procurar_por_ele"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "meu_professor_nao_disse": {
+      "pid": 127,
+      "twine_name": "Meu professor não disse",
+      "file": "03_artefato_conversa/p127_meu_professor_nao_disse.rpy",
+      "canon_parent": "de_fato",
+      "canon_link": "Meu professor não disse",
+      "children": [
+        {
+          "slug": "acho_que_nem_ele_sabe",
+          "link": "Acho que nem ele sabe",
+          "nav": false,
+          "ref": "p128_acho_que_nem_ele_sabe"
+        },
+        {
+          "slug": "so_sigo_ordens",
+          "link": "Só sigo ordens",
+          "nav": false,
+          "ref": "p129_so_sigo_ordens"
+        },
+        {
+          "slug": "e_estranho_mesmo",
+          "link": "É, estranho mesmo",
+          "nav": false,
+          "ref": "p130_e_estranho_mesmo"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "acho_que_nem_ele_sabe": {
+      "pid": 128,
+      "twine_name": "Acho que nem ele sabe",
+      "file": "03_artefato_conversa/p128_acho_que_nem_ele_sabe.rpy",
+      "canon_parent": "meu_professor_nao_disse",
+      "canon_link": "Acho que nem ele sabe",
+      "children": [
+        {
+          "slug": "vamos_para_a_proxima_pergunta",
+          "link": "Vamos para a próxima pergunta",
+          "nav": false,
+          "ref": "p078_vamos_para_a_proxima_pergunta"
+        },
+        {
+          "slug": "entao_tchau",
+          "link": "Então tchau",
+          "nav": false,
+          "ref": "p136_entao_tchau"
+        },
+        {
+          "slug": "vou_dar_uma_chance",
+          "link": "Vou dar uma chance",
+          "nav": false,
+          "ref": "p093_vou_dar_uma_chance"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "so_sigo_ordens": {
+      "pid": 129,
+      "twine_name": "Só sigo ordens",
+      "file": "03_artefato_conversa/p129_so_sigo_ordens.rpy",
+      "canon_parent": "meu_professor_nao_disse",
+      "canon_link": "Só sigo ordens",
+      "children": [
+        {
+          "slug": "entao_tchau",
+          "link": "Então tchau",
+          "nav": false,
+          "ref": "p136_entao_tchau"
+        },
+        {
+          "slug": "vamos_para_a_proxima_pergunta",
+          "link": "Vamos para a próxima pergunta",
+          "nav": false,
+          "ref": "p078_vamos_para_a_proxima_pergunta"
+        },
+        {
+          "slug": "quero_ajudar",
+          "link": "Quero ajudar",
+          "nav": false,
+          "ref": "p034_quero_ajudar"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "e_estranho_mesmo": {
+      "pid": 130,
+      "twine_name": "É, estranho mesmo",
+      "file": "03_artefato_conversa/p130_e_estranho_mesmo.rpy",
+      "canon_parent": "meu_professor_nao_disse",
+      "canon_link": "É, estranho mesmo",
+      "children": [
+        {
+          "slug": "vamos_para_a_proxima_pergunta",
+          "link": "Vamos para a próxima pergunta",
+          "nav": false,
+          "ref": "p078_vamos_para_a_proxima_pergunta"
+        },
+        {
+          "slug": "vou_dar_uma_chance",
+          "link": "Vou dar uma chance",
+          "nav": false,
+          "ref": "p093_vou_dar_uma_chance"
+        },
+        {
+          "slug": "entao_tchau",
+          "link": "Então tchau",
+          "nav": false,
+          "ref": "p136_entao_tchau"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "podemos_procurar_por_ele": {
+      "pid": 131,
+      "twine_name": "Podemos procurar por ele?",
+      "file": "03_artefato_conversa/p131_podemos_procurar_por_ele.rpy",
+      "canon_parent": "nao_sei_como_ele_se_parece",
+      "canon_link": "Podemos procurar por ele?",
+      "children": [
+        {
+          "slug": "vamos_para_a_proxima_pergunta",
+          "link": "Vamos para a próxima pergunta",
+          "nav": false,
+          "ref": "p078_vamos_para_a_proxima_pergunta"
+        },
+        {
+          "slug": "vou_dar_uma_chance",
+          "link": "Vou dar uma chance",
+          "nav": false,
+          "ref": "p093_vou_dar_uma_chance"
+        },
+        {
+          "slug": "entao_tchau",
+          "link": "Então tchau",
+          "nav": false,
+          "ref": "p136_entao_tchau"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "sem_problemas_ate_mais": {
+      "pid": 132,
+      "twine_name": "Sem problemas, até mais!",
+      "file": "03_artefato_conversa/p132_sem_problemas_ate_mais.rpy",
+      "canon_parent": "rompendo_o_veu_entre_o_mundo_fisico_e_o_astral",
+      "canon_link": "Sem problemas, até mais!",
+      "children": [
+        {
+          "slug": "game_over_continuar",
+          "link": "➞",
+          "nav": true,
+          "ref": "p009_game_over_continuar"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "ele_pode_alterar_a_realidade": {
+      "pid": 133,
+      "twine_name": "Ele pode alterar a realidade",
+      "file": "03_artefato_conversa/p133_ele_pode_alterar_a_realidade.rpy",
+      "canon_parent": "parece_que_o_artefato_tem_propriedades_magicas",
+      "canon_link": "Ele pode alterar a realidade",
+      "children": [
+        {
+          "slug": "vamos_para_a_proxima_pergunta",
+          "link": "Vamos para a próxima pergunta",
+          "nav": false,
+          "ref": "p078_vamos_para_a_proxima_pergunta"
+        },
+        {
+          "slug": "tudo_bem_ate_mais",
+          "link": "Tudo bem, até mais!",
+          "nav": false,
+          "ref": "p135_tudo_bem_ate_mais"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "nao_faco_ideia": {
+      "pid": 134,
+      "twine_name": "Não faço ideia",
+      "file": "03_artefato_conversa/p134_nao_faco_ideia.rpy",
+      "canon_parent": "parece_que_o_artefato_tem_propriedades_magicas",
+      "canon_link": "Não faço ideia",
+      "children": [
+        {
+          "slug": "tava_brincando",
+          "link": "Tava brincando",
+          "nav": false,
+          "ref": "p012_tava_brincando"
+        },
+        {
+          "slug": "tudo_bem_ate_mais",
+          "link": "Tudo bem, até mais!",
+          "nav": false,
+          "ref": "p135_tudo_bem_ate_mais"
+        }
+      ],
+      "other_parents": [],
+      "is_crossing": false
+    },
+    "tudo_bem_ate_mais": {
+      "pid": 135,
+      "twine_name": "Tudo bem, até mais!",
+      "file": "03_artefato_conversa/p135_tudo_bem_ate_mais.rpy",
+      "canon_parent": "ele_pode_alterar_a_realidade",
+      "canon_link": "Tudo bem, até mais!",
+      "children": [
+        {
+          "slug": "game_over_continuar_alt",
+          "link": "⇨",
+          "nav": true,
+          "ref": "p043_game_over_continuar_alt"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "nao_faco_ideia",
+          "ref": "p134_nao_faco_ideia"
+        }
+      ],
+      "is_crossing": true
+    },
+    "entao_tchau": {
+      "pid": 136,
+      "twine_name": "Então tchau",
+      "file": "03_artefato_conversa/p136_entao_tchau.rpy",
+      "canon_parent": "podemos_procurar_por_ele",
+      "canon_link": "Então tchau",
+      "children": [
+        {
+          "slug": "game_over_continuar",
+          "link": "➞",
+          "nav": true,
+          "ref": "p009_game_over_continuar"
+        }
+      ],
+      "other_parents": [
+        {
+          "slug": "acho_que_nem_ele_sabe",
+          "ref": "p128_acho_que_nem_ele_sabe"
+        },
+        {
+          "slug": "e_estranho_mesmo",
+          "ref": "p130_e_estranho_mesmo"
+        },
+        {
+          "slug": "so_sigo_ordens",
+          "ref": "p129_so_sigo_ordens"
+        }
+      ],
+      "is_crossing": true
+    }
+  },
+  "stats": {
+    "passages": 136,
+    "crossings": 46
+  }
+}

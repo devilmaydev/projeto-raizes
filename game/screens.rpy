@@ -122,22 +122,6 @@ screen about():
 
             text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
 
-            null height 20
-
-            ## Estúdio: em baixo; crop esquerda + topo remove bordas/linhas do PNG.
-            hbox:
-                spacing 28
-                xalign 0.0
-
-                add Transform("images/devils_club_logo.png", crop=(36, 18, 922, 937), zoom=0.22):
-                    yalign 0.5
-
-                text "{a=mailto:contato@devilsclub.com.br}contato@devilsclub.com.br{/a}":
-                    yalign 0.5
-                    style "about_text"
-                    size 30
-                    color gui.accent_color
-
 
 style about_label is gui_label
 style about_label_text is gui_label_text
@@ -149,6 +133,34 @@ style about_label_text:
 style about_text:
     xmaximum 1500
     textalign 0.0
+
+
+## Créditos ####################################################################
+
+screen creditos():
+
+    tag menu
+
+    use game_menu(_("Credits"), scroll="viewport"):
+
+        style_prefix "creditos"
+
+        vbox:
+            xoffset 0
+            xmaximum 1500
+            spacing 28
+
+            text _("Programming: Fábio Ferro Jr"):
+                style "creditos_line"
+            text _("Art and Narrative Design: Thadeu M. Fidélis"):
+                style "creditos_line"
+            text _("Music: Leonardo Venturieri"):
+                style "creditos_line"
+
+
+style creditos_line is gui_text:
+    size 36
+    color gui.text_color
 
 
 ## Load and Save screens #######################################################

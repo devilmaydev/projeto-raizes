@@ -27,7 +27,23 @@ screen say(who, what):
                 style "namebox"
                 text who id "who"
 
-        text what id "what"
+        fixed:
+            xpos gui.dialogue_xpos
+            ypos gui.dialogue_ypos
+            xsize gui.dialogue_width
+            ysize gui.dialogue_viewport_height
+
+            viewport:
+                id "dialogue_viewport"
+                style_prefix "dialogue"
+                scrollbars "vertical"
+                mousewheel True
+                arrowkeys True
+                pagekeys True
+                draggable False
+                yinitial 0.0
+
+                text what id "what" style "say_dialogue_viewport"
 
 
     ## If there's a side image, display it above the text. Do not display on the
@@ -80,6 +96,18 @@ style say_dialogue:
     ypos gui.dialogue_ypos
 
     adjust_spacing False
+
+## Texto dentro do viewport (say) — posição vem do fixed/viewport, não do gui.dialogue_*.
+style say_dialogue_viewport is say_dialogue:
+    xpos 0
+    ypos 0
+    xsize gui.dialogue_width
+
+## Mesmas cores do resto da UI (screens.rpy → style vscrollbar).
+style dialogue_vscrollbar is vscrollbar:
+    unscrollable "hide"
+    base_bar Solid(gui.muted_color)
+    thumb Solid(gui.hover_color)
 
 ## Input screen ################################################################
 ##

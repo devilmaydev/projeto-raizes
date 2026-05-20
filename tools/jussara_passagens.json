@@ -1,0 +1,1189 @@
+[
+  {
+    "name": "Belém",
+    "slug": "belém",
+    "links": [
+      "▶"
+    ],
+    "text": "Você acaba de desembarcar no Aeroporto Internacional de Belém. A brisa das árvores e de um céu longe de prédios do bairro do Marex quase disfarça o calor e o mormaço que envolvem a cidade como uma redoma. Você quase consegue aproveitar a brisa, fechando os olhos e inspirando o ar profundamente, mas, ao tempo de expirar o ar de volta, a brisa já se dissipou em meio a gotículas de águas em temperatura escaldante, deixando sua pele e roupa enxarcada antes mesmo da segunda inspirada."
+  },
+  {
+    "name": "Universidade Federal do Pará",
+    "slug": "universidade_federal_do_pará",
+    "links": [
+      "Mirante do Rio"
+    ],
+    "text": "Você desembarca no Portão III, o mais próximo do Rio Guamá. Dá graças a Deus pelo campus ser longe do centro urbano. Ao contrário: é às margens de um rio belíssimo, cheio de vida e natureza. Você logo se mistura à fila inevitável que se forma na entrada, para então se dissipar após o portão e, e,m seguida, se reorganizar novamente nas calçadas e pontes de acesso que sobrepairam os riachos que cortam a universidade. Você nota um movimento de gente se formando ao chegar perto do enorme prédio que concentra os cursos de humanas e licenciaturas, o"
+  },
+  {
+    "name": "Mirante do Rio",
+    "slug": "mirante_do_rio",
+    "links": [
+      "abordagem da Jussara"
+    ],
+    "text": "Estudantes por todos os lados espalhados, com placas, bandeiras, pôsteres. Nota-se uma mobilização por alguma pauta do momento. Você passeia com os olhos buscando encontrar pistas da nossa ''Portadora do Artefato''. Não demora para você mesmo ser surpreendido pela , que está ali entrevistando pessoas para a sua pesquisa."
+  },
+  {
+    "name": "▶",
+    "slug": "p_",
+    "links": [
+      "Universidade Federal do Pará"
+    ],
+    "text": "Ficar o máximo possível no ar-condicionado é a solução paliativa ideal no momento. Pedir um Uber Black com um ar trincando enquanto espera do lado de dentro do aeroporto e experimenta os exóticos sorvetes de frutas regionais, como o Cupuaçú, o Acaí, o Taperebá e o Bacurí. A experiência não está tão ruim assim, afinal. Antes você estava doido para partir, agora você até pensa que o motorista podia demorar um pouco mais para você degustar os sorvetes com mais calma. Eis que o carro chega, você empurra g'uela abaixo o resto da casquinha e embarca rumo à"
+  },
+  {
+    "name": "abordagem da Jussara",
+    "slug": "abordagem_da_jussara",
+    "links": [
+      "Posso sim",
+      "Eu já estava te procurando mesmo",
+      "Nem pensar"
+    ],
+    "text": "(a imagem da personagem aparece em primeiro plano)\n\nOlá! Tudo bem? Prazer, eu me chamo Jussara, sou estudante de pós-graduação do curso de jornalismo aqui na UFPA. Meu grupo e eu estamos realizando um projeto de pesquisa e gostaria de te fazer algumas perguntas, pode ser?"
+  },
+  {
+    "name": "Posso sim",
+    "slug": "posso_sim",
+    "links": [
+      "Sou contra",
+      "Sou a favor",
+      "Decreto 12.600?"
+    ],
+    "text": "(Jussara assume uma expressão feliz)\n\nAh, obrigada! Então vamos lá. Primeira pergunta: qual sua opinião sobre o Decreto Nº 12.600?"
+  },
+  {
+    "name": "Eu já estava te procurando mesmo",
+    "slug": "eu_já_estava_te_procurando_mesmo",
+    "links": [
+      "Tava brincando",
+      "Sou pesquisador de SP",
+      "Busco algo em sua posse"
+    ],
+    "text": "(Jussara assume uma expressão desconfiada)\n\nComo assim \"estava me procurando\"? Quem é você?"
+  },
+  {
+    "name": "Nem pensar",
+    "slug": "nem_pensar",
+    "links": [
+      "Sério",
+      "Posso sim"
+    ],
+    "text": "(Jussara assume uma expressão de espanto)\n\nCom assim? Sério mesmo?\n\n\nNão,"
+  },
+  {
+    "name": "➞",
+    "slug": "p_",
+    "links": [
+      "Sim",
+      "Não"
+    ],
+    "text": "Game Over\n\nContinuar?"
+  },
+  {
+    "name": "Sim",
+    "slug": "sim",
+    "links": [
+      "Belém"
+    ],
+    "text": "Tudo pronto para o vôo. Malas prontas e partiu em busca do artefato em"
+  },
+  {
+    "name": "Não",
+    "slug": "não",
+    "links": [],
+    "text": "Obrigado por jogar!"
+  },
+  {
+    "name": "Tava brincando",
+    "slug": "tava_brincando",
+    "links": [
+      "Posso sim",
+      "Nem pensar",
+      "O artefato primeiro"
+    ],
+    "text": "(Jussara assume uma expressão boba)\n\nHmm... engraçadinho. Enfim, pode me conceder algumas respostas então?"
+  },
+  {
+    "name": "Sou pesquisador de SP",
+    "slug": "sou_pesquisador_de_sp",
+    "links": [
+      "Busco algo em sua posse",
+      "Ajudar na sua pesquisa"
+    ],
+    "text": "Um pesquisador que estava me procurando? Para que exatamente?"
+  },
+  {
+    "name": "Busco algo em sua posse",
+    "slug": "busco_algo_em_sua_posse",
+    "links": [
+      "Posso sim",
+      "Nem pensar",
+      "O artefato primeiro"
+    ],
+    "text": "Não sei se eu tô entendendo direito. Bom, acho que tu não podes me ajudar com a pesquisa então, né?"
+  },
+  {
+    "name": "Sou contra",
+    "slug": "sou_contra",
+    "links": [
+      "Prossiga"
+    ],
+    "text": "(Jussara assume uma expressão contente)\n\nAh, como é bom ouvir isso de um forasteiro! Sabe, esse decreto está pondo em risco todo o sistema hídrico do Pará..."
+  },
+  {
+    "name": "Sou a favor",
+    "slug": "sou_a_favor",
+    "links": [
+      "Sei, não me importo",
+      "Conte-me mais"
+    ],
+    "text": "(Jussara assume uma expressão de espanto)\n\nVocê tá brincando?? Você sabe o impacto que esse decreto causará para mais de 14 povos originários e para toda a população da região norte?"
+  },
+  {
+    "name": "Decreto 12.600?",
+    "slug": "decreto_12600",
+    "links": [
+      "Conte-me mais"
+    ],
+    "text": "Sim, todo esse movimento que tu estás vendo aqui é em torno disso. E não somente aqui, há ocupações de povos indígenas em vários locais do estado, além de bloqueio de vias e manifestações nas ruas."
+  },
+  {
+    "name": "Sei, não me importo",
+    "slug": "sei_não_me_importo",
+    "links": [
+      "Estou sim",
+      "Claro que não, só zuando"
+    ],
+    "text": "(Jussara assume uma expressão irritada)\n\nVocê não pode estar falando sério!!"
+  },
+  {
+    "name": "Conte-me mais",
+    "slug": "conte-me_mais",
+    "links": [
+      "E qual o problema?",
+      "Meu Deus, que triste!",
+      "Prossiga"
+    ],
+    "text": "Esse decreto visa a concessão do Rio Tapajós e mais outros dois rios daqui do Pará, o que, na prática, acaba sendo a privatização desses rios."
+  },
+  {
+    "name": "Ajudar na sua pesquisa",
+    "slug": "ajudar_na_sua_pesquisa",
+    "links": [
+      "Posso sim",
+      "O artefato primeiro",
+      "Nem pensar"
+    ],
+    "text": "Ah sim! Égua, que bom que tu já estavas disposto a ajudar no projeto, fico feliz com isso. Então, vamos lá, podes responder as perguntas agora?"
+  },
+  {
+    "name": "Sério",
+    "slug": "sério",
+    "links": [
+      "➞"
+    ],
+    "text": "(Jussara assume uma expressão triste)\n\nAh, tudo bem, entendo... Enfim, obrigado pela atenção! Tenha um bom dia!"
+  },
+  {
+    "name": "E qual o problema?",
+    "slug": "e_qual_o_problema",
+    "links": [
+      "Prossiga"
+    ],
+    "text": "O problema? Os problemas, né?"
+  },
+  {
+    "name": "Meu Deus, que triste!",
+    "slug": "meu_deus_que_triste",
+    "links": [
+      "Prossiga"
+    ],
+    "text": "Pois é, né?"
+  },
+  {
+    "name": "Prossiga",
+    "slug": "prossiga",
+    "links": [
+      "Há um significado místico desse rio para esses povos?",
+      "Os índios deveriam ser incorporados à sociedade como todo mundo"
+    ],
+    "text": "Esse rios passam por dentro de reservas indígenas. A dragagem mata os animais e a poluição afeta toda a população da região Norte. Sem falar na intoxicação com agrotóxicos do excesso de monocultura. Florestas inteiras viraram plantações de soja, que além de tudo exalam um odor insuportável, que a população sequer consegue dormir direito com o cheiro..."
+  },
+  {
+    "name": "Estou sim",
+    "slug": "estou_sim",
+    "links": [
+      "➞"
+    ],
+    "text": "(Jussara assume uma postura séria)\n\nBom, não vejo porque darmos continuidade à essa pesquisa então. Tenha um bom dia."
+  },
+  {
+    "name": "Claro que não, só zuando",
+    "slug": "claro_que_não_só_zuando",
+    "links": [
+      "Relaxa, gata",
+      "Eu sei, desculpe"
+    ],
+    "text": "(Jussara assume uma expressão de desconfiança)\n\nRum... Um pouco delicado brincar com uma questão dessa gravidade."
+  },
+  {
+    "name": "Relaxa, gata",
+    "slug": "relaxa_gata",
+    "links": [
+      "➞"
+    ],
+    "text": "(Jussara assume uma postura séria e brava)\n\nOlha, definitivamente não deveríramos estar aqui conversando. Obrigado pela participação."
+  },
+  {
+    "name": "Eu sei, desculpe",
+    "slug": "eu_sei_desculpe",
+    "links": [
+      "Conte-me mais",
+      "Não me importo mesmo"
+    ],
+    "text": "(Juassara assume uma postura mais leve)\n\nTudo bem, Mas e então, tu sabes mesmo o significado desse decreto?"
+  },
+  {
+    "name": "O artefato primeiro",
+    "slug": "o_artefato_primeiro",
+    "links": [
+      "Preciso que me ajude a descobrir",
+      "Um artefato mágico que transforma a realidade"
+    ],
+    "text": "Artefato? Que artefato?"
+  },
+  {
+    "name": "Preciso que me ajude a descobrir",
+    "slug": "preciso_que_me_ajude_a_descobrir",
+    "links": [
+      "Absoluta",
+      "Tava brincando"
+    ],
+    "text": "(Jusara assume uma expressão confusa)\n\nDesculpe, mas não faço ideia do que se trata. Tem certeza que sou eu?"
+  },
+  {
+    "name": "Um artefato mágico que transforma a realidade",
+    "slug": "um_artefato_mágico_que_transforma_a_realidade",
+    "links": [
+      "Perdão",
+      "Não acho tão sério assim"
+    ],
+    "text": "(Jussara assume uma postura séria)\n\nOlha, eu não sei que espécie de jogo é essa, onde tu falas de coisas fantasiosas enquanto eu tô aqui te perguntando coisas sérias..."
+  },
+  {
+    "name": "Perdão",
+    "slug": "perdão",
+    "links": [
+      "Posso sim",
+      "Nem pensar"
+    ],
+    "text": "(Juassara assume uma postura mais leve)\n\nTudo bem. Mas e aí, podes responder o questionário?"
+  },
+  {
+    "name": "Não acho tão sério assim",
+    "slug": "não_acho_tão_sério_assim",
+    "links": [
+      "⇨"
+    ],
+    "text": "(Jussara assume uma postura séria)\n\nBom, então acho que deveríamos encerrar por aqui. Tenha um bom dia"
+  },
+  {
+    "name": "Quero ajudar",
+    "slug": "quero_ajudar",
+    "links": [
+      "Agitar nas redes",
+      "Pix solidário para ajudar nas ocupações",
+      "Ajudar a disseminar em SP, o maior hub do Brasil"
+    ],
+    "text": "(Jussara assume uma expressão alegre)\n\nÉgua! Que bom ouvir isso de também! Temos inúmeras formas de ajudar. Você pode acompanhar os perfis das causas nas redes, já que a mídia hegemônica praticmente ignora ou diminui a causa. Por isso é importante ajudar na comunicação e combater a desinformação por aí. Você também pode fazer um pix solidário, ajudar na compra de alimetento, água e materiais para as ocupações, que contam com secretarias, com escolas, cozinha, segurança...\n\nE então, como pretede ajudar?"
+  },
+  {
+    "name": "Os índios deveriam ser incorporados à sociedade como todo mundo",
+    "slug": "os_índios_deveriam_ser_incorporados_à_sociedade_como_todo_mundo",
+    "links": [
+      "Você está exagerando",
+      "Não tinha parado pra pensar nisso"
+    ],
+    "text": "(Jussara assume uma expressão irritada)\n\nTedoidé?? Tu não ouviste nada do que eu acabei de falar? Se não fossem os povos originários não havia talvez nem ar pra respirar direito."
+  },
+  {
+    "name": "Absoluta",
+    "slug": "absoluta",
+    "links": [
+      "⇨"
+    ],
+    "text": "(Jussara assume uma expressão de choque)\n\nUé, nunca ouvi falar de nenhum artefato que altere a realidade, a não ser que esteja falando de substâncias. Bom, nesse caso acho que que vai conseguir te ajudar com isso são os moleques que ficam ali perto do Vadião.\n\nBom, espero que encontre o que procura então. Até um outro dia"
+  },
+  {
+    "name": "Não me importo mesmo",
+    "slug": "não_me_importo_mesmo",
+    "links": [
+      "➞"
+    ],
+    "text": "(Jussara assume uma expressão irritada)\n\nAh, é? Então faça o favor de se retirar da minha frente. Até mais..."
+  },
+  {
+    "name": "Você está exagerando",
+    "slug": "você_está_exagerando",
+    "links": [
+      "➞"
+    ],
+    "text": "(Jussara assume uma postura de decepção)\n\nBom, sinto muito que pense dessa forma, mas acho melhor então pararmos por aqui. Até"
+  },
+  {
+    "name": "Não tinha parado pra pensar nisso",
+    "slug": "não_tinha_parado_pra_pensar_nisso",
+    "links": [
+      "Você está pessoalmente envolvida na causa?",
+      "Esse povo não tem o que fazer?"
+    ],
+    "text": "Os indígenas ocuparm o acesso ao aeroporto de Santarém, bloquearam vias em todo o estado, manifestaram nas ruas em vários municípios, isso não é pouca coisa."
+  },
+  {
+    "name": "Agitar nas redes",
+    "slug": "agitar_nas_redes",
+    "links": [
+      "Não foi por nada!",
+      "Na verdade, agora queria pedir sua ajuda com outra coisa"
+    ],
+    "text": "Ah,que legal! Isso aí, obrigado pela sua participação e engajamento! Espero encontrar mais pessoas como tu por aqui."
+  },
+  {
+    "name": "Ajudar a disseminar em SP, o maior hub do Brasil",
+    "slug": "ajudar_a_disseminar_em_sp_o_maior_hub_do_brasil",
+    "links": [
+      "Não foi por nada!",
+      "Na verdade, agora queria pedir sua ajuda com outra coisa",
+      "Você está pessoalmente envolvida na causa?"
+    ],
+    "text": "Sério? Isso seria incrível!"
+  },
+  {
+    "name": "Pix solidário para ajudar nas ocupações",
+    "slug": "pix_solidário_para_ajudar_nas_ocupações",
+    "links": [
+      "Qual a chave pix?",
+      "Acho que mudei de ideia"
+    ],
+    "text": "Isso é muito bom! Tu vais estar ajudando uma grande quantidade de gente, em consequência ajudando a todos nós. Agradecemos de coração pela determinação!"
+  },
+  {
+    "name": "⇨",
+    "slug": "p_",
+    "links": [
+      "Sim.",
+      "Não."
+    ],
+    "text": "Game Over\n\nContinuar?"
+  },
+  {
+    "name": "Sim.",
+    "slug": "sim",
+    "links": [
+      "Belém"
+    ],
+    "text": "Tudo pronto para o vôo. Malas prontas e partiu em busca do artefato em"
+  },
+  {
+    "name": "Não.",
+    "slug": "não",
+    "links": [],
+    "text": "Obrigado por jogar!"
+  },
+  {
+    "name": "Você está pessoalmente envolvida na causa?",
+    "slug": "você_está_pessoalmente_envolvida_na_causa",
+    "links": [
+      "Hmm...",
+      "Me conta a história"
+    ],
+    "text": "Particularmente tenho um pé de envolvimento pessoal nessa causa sim. \n\nSou descendente direta de povos orignários. Minha avó, que já descansa em paz, costumava me contar a história de nossos ancestrais."
+  },
+  {
+    "name": "Me conta a história",
+    "slug": "me_conta_a_história",
+    "links": [
+      "(história}"
+    ],
+    "text": "(Aqui é o trigger para a  )"
+  },
+  {
+    "name": "Hmm...",
+    "slug": "hmm",
+    "links": [
+      "Me conta a história",
+      "Vamos para a próxima pergunta"
+    ],
+    "text": "Enfim, desculpa o devaneio... Vamos então para a próxima pergunta?\n\nNão, não. , quero saber\nClaro!"
+  },
+  {
+    "name": "Esse povo não tem o que fazer?",
+    "slug": "esse_povo_não_tem_o_que_fazer",
+    "links": [
+      "Era mesmo. Desculpe. Prossiga",
+      "Nem é"
+    ],
+    "text": "Isso só pode ser piada...."
+  },
+  {
+    "name": "Era mesmo. Desculpe. Prossiga",
+    "slug": "era_mesmo_desculpe_prossiga",
+    "links": [],
+    "text": ""
+  },
+  {
+    "name": "Nem é",
+    "slug": "nem_é",
+    "links": [
+      "➞"
+    ],
+    "text": "(Jussara assume uma expressão séria)\n\nCerto... Obrigado pela sua participação. Tenha um bom dia."
+  },
+  {
+    "name": "Qual a chave pix?",
+    "slug": "qual_a_chave_pix",
+    "links": [
+      "Feito",
+      "Agora preciso da sua ajuda"
+    ],
+    "text": "Ah, anota aí, é celular, (91) 98XX-XXXX"
+  },
+  {
+    "name": "Acho que mudei de ideia",
+    "slug": "acho_que_mudei_de_ideia",
+    "links": [
+      "Te juro",
+      "Que nada, vamo sim"
+    ],
+    "text": "Ah, jura?"
+  },
+  {
+    "name": "Feito",
+    "slug": "feito",
+    "links": [
+      "Não foi por nada!",
+      "Na verdade, agora queria pedir sua ajuda com outra coisa",
+      "Pacas?"
+    ],
+    "text": "Muito obrigada! tu contribuíste pacas na nossa causa!"
+  },
+  {
+    "name": "Agora preciso da sua ajuda",
+    "slug": "agora_preciso_da_sua_ajuda",
+    "links": [
+      "Gostaria que me emprestasse um artefato seu"
+    ],
+    "text": ""
+  },
+  {
+    "name": "Não foi por nada!",
+    "slug": "não_foi_por_nada",
+    "links": [
+      "Vamos para a próxima pergunta",
+      "Na verdade, agora queria pedir sua ajuda com outra coisa"
+    ],
+    "text": "Muito gentil mesmo da sua parte!\n\nBom, a próxima pergunta seria se você teria interesse em contribuir de alguma forma na causa, mas você já se adiantou em oferecer ajuda\n\n então"
+  },
+  {
+    "name": "Na verdade, agora queria pedir sua ajuda com outra coisa",
+    "slug": "na_verdade_agora_queria_pedir_sua_ajuda_com_outra_coisa",
+    "links": [
+      "Gostaria que me emprestasse um artefato seu"
+    ],
+    "text": ""
+  },
+  {
+    "name": "Pacas?",
+    "slug": "pacas",
+    "links": [
+      "Interessante!",
+      "Que gracinha você"
+    ],
+    "text": "É rsrs Desculpa, estou tão à vontade que acabo deixando escapar umas gírias do paraensês! \"Pacas\" é uma forma de falar \"pra caramba\"."
+  },
+  {
+    "name": "Gostaria que me emprestasse um artefato seu",
+    "slug": "gostaria_que_me_emprestasse_um_artefato_seu",
+    "links": [
+      "Sei",
+      "Pior que não"
+    ],
+    "text": "Artefato? Que artefato? Você sabe exatamente como ele se parece?"
+  },
+  {
+    "name": "Te juro",
+    "slug": "te_juro",
+    "links": [
+      "Simplesmente não vou mais ajudar",
+      "Que ajudar de outra forma"
+    ],
+    "text": "Égua... tudo bem... Isso quer dizer então que pretende ajudar de outra forma? Ou simplesmente não vai mais ajudar?"
+  },
+  {
+    "name": "Que nada, vamo sim",
+    "slug": "que_nada_vamo_sim",
+    "links": [
+      "Qual a chave pix?",
+      "Gracinha é você"
+    ],
+    "text": "Ufa! Égua, pára com essas tuas gracinhas, já me deixou nervosa umas três vezes aqui rsrs"
+  },
+  {
+    "name": "Simplesmente não vou mais ajudar",
+    "slug": "simplesmente_não_vou_mais_ajudar",
+    "links": [
+      "⇨"
+    ],
+    "text": "Poxa... sinto muito mesmo que não queria mais... Mas obrigado pela sua participação de qualquer maneira! Até mais!"
+  },
+  {
+    "name": "Que ajudar de outra forma",
+    "slug": "que_ajudar_de_outra_forma",
+    "links": [
+      "Agitar nas redes",
+      "Ajudar a disseminar em SP, o maior hub do Brasil"
+    ],
+    "text": "Ah, que bom! E de que outra maneira tu pretendes ajudar?"
+  },
+  {
+    "name": "Há um significado místico desse rio para esses povos?",
+    "slug": "há_um_significado_místico_desse_rio_para_esses_povos",
+    "links": [
+      "Isso me lembra de um certo arfefato",
+      "Quero ajudar",
+      "Grande coisa..."
+    ],
+    "text": "Há um significado espiritual muito grande desse Rio para esses povos. Para os Mundurucus, por exemplo, é o berço do seu povo. A destruição desse rio seria a destruição dos seus ancestrais.\n\n\nQue interessante!"
+  },
+  {
+    "name": "Grande coisa...",
+    "slug": "grande_coisa",
+    "links": [
+      "Vou",
+      "Desculpe!"
+    ],
+    "text": "Sério? Tu vais desdenhar disso mesmo?"
+  },
+  {
+    "name": "Vou",
+    "slug": "vou",
+    "links": [
+      "Era mesmo. Desculpe. Prossiga",
+      "Nem é"
+    ],
+    "text": "Isso só pode ser piada!"
+  },
+  {
+    "name": "E daí?",
+    "slug": "e_daí",
+    "links": [
+      "E qual o problema?",
+      "Meu Deus, que triste!",
+      "Prossiga"
+    ],
+    "text": "E daí? Esse decreto visa a concessão do Rio Tapajós e mais outros dois rios daqui do Pará, o que, na prática, acaba sendo a privatização desses rios."
+  },
+  {
+    "name": "Sei",
+    "slug": "sei",
+    "links": [
+      "Tava mentindo",
+      "Não sei"
+    ],
+    "text": "Então como ele é?"
+  },
+  {
+    "name": "Pior que não",
+    "slug": "pior_que_não",
+    "links": [
+      "Sei como é...",
+      "Se vira, dá um jeito!"
+    ],
+    "text": "Bom, então acho que não tenho como te ajudar, desculpa... Eu até te levaria ao meu escritório, mas estou tão oculpada com a causa que não tem sobrado tempo pra nada..."
+  },
+  {
+    "name": "Tava mentindo",
+    "slug": "tava_mentindo",
+    "links": [
+      "1 semana depois (se optou por não perguntar se ela está pessoalmente envolvida na causa"
+    ],
+    "text": "...\n\nSem graça...\n\nEntão você não sabe como ele é, né? Bom, sinto muito então não poder te ajudar com isso."
+  },
+  {
+    "name": "Não sei",
+    "slug": "não_sei",
+    "links": [
+      "Pior que não",
+      "Sei sim"
+    ],
+    "text": "Afinal, você sabe como é ou não?"
+  },
+  {
+    "name": "Sei como é...",
+    "slug": "sei_como_é",
+    "links": [
+      "Quer sair pra tomar um tacacá?",
+      "Que tal irmos para a próxima pergunta?"
+    ],
+    "text": "Então tu me entendes!"
+  },
+  {
+    "name": "Se vira, dá um jeito!",
+    "slug": "se_vira_dá_um_jeito",
+    "links": [
+      "Era zoas",
+      "Azar o seu"
+    ],
+    "text": "Olha, não gostei nem um poco dessa maneira de falar! Passou de todos os limites!"
+  },
+  {
+    "name": "Desculpe!",
+    "slug": "desculpe",
+    "links": [
+      "Quero ajudar",
+      "Eu adoraria, mas estou mesmo aqui por outro motivo"
+    ],
+    "text": "Rum... tudo bem, vou deixar passar essa. Então vamos para a próxima pergunta: tu estarias interessado em ajudar na causa?\n\nSim,."
+  },
+  {
+    "name": "Interessante!",
+    "slug": "interessante",
+    "links": [
+      "Na verdade, agora queria pedir sua ajuda com outra coisa",
+      "Quer sair pra tomar um tacacá?"
+    ],
+    "text": "Enfim, mas muito obrigada mesmo mais uma vez!"
+  },
+  {
+    "name": "Que gracinha você",
+    "slug": "que_gracinha_você",
+    "links": [
+      "De nada!",
+      "Quer sair pra tomar um tacacá?"
+    ],
+    "text": "Obrigada rsrs"
+  },
+  {
+    "name": "Quer sair pra tomar um tacacá?",
+    "slug": "quer_sair_pra_tomar_um_tacacá",
+    "links": [
+      "Pode ser aqui mesmo na UFPA, no Veropesinho",
+      "Pode ser outro dia lá no Ver-o-peso"
+    ],
+    "text": "Égua! Não tava esperando por essa! Eu adoraria, mas tenho estado tão atarefada com a causa que...\n\nAh, quer saber, vamos sim! Onde tu queres ir?"
+  },
+  {
+    "name": "Vamos para a próxima pergunta",
+    "slug": "vamos_para_a_próxima_pergunta",
+    "links": [
+      "Relevantes",
+      "Irrelevantes"
+    ],
+    "text": "Claro, vamos lá: qual é o papel dos povos indígenas na sociedade de hoje na sua opinião?"
+  },
+  {
+    "name": "Eu adoraria, mas estou mesmo aqui por outro motivo",
+    "slug": "eu_adoraria_mas_estou_mesmo_aqui_por_outro_motivo",
+    "links": [
+      "Só tô passeando",
+      "Preciso que me empreste um artefato seu para a minha pesquisa"
+    ],
+    "text": "E qual seria esse motivo?"
+  },
+  {
+    "name": "Gracinha é você",
+    "slug": "gracinha_é_você",
+    "links": [
+      "Feito",
+      "Agora preciso da sua ajuda"
+    ],
+    "text": "Ai, para com isso, engraçadinho! Anota logo essa chave pix aí:  (91) 98XX-XXXX"
+  },
+  {
+    "name": "De nada!",
+    "slug": "de_nada",
+    "links": [
+      "1 semana depois (se optou por não perguntar se ela está pessoalmente envolvida na causa"
+    ],
+    "text": "Bom, então nos vemos por aí! Muito obrigada e tenha um excelente fim de tarde!"
+  },
+  {
+    "name": "Preciso que me empreste um artefato seu para a minha pesquisa",
+    "slug": "preciso_que_me_empreste_um_artefato_seu_para_a_minha_pesquisa",
+    "links": [
+      "É, uma mão lava a outra",
+      "Primeiro você"
+    ],
+    "text": "Hmm, então você precisa da minha ajuda, né? Que tal colaborar com a causa primeiro?"
+  },
+  {
+    "name": "Não, obrigado",
+    "slug": "não_obrigado",
+    "links": [
+      "Vou dar uma chance",
+      "Não mesmo, sinto muito"
+    ],
+    "text": "Tem certeza? É uma causa importante pra muita gente. Na verdade eu diria que é importante pra todos nós!"
+  },
+  {
+    "name": "Só tô passeando",
+    "slug": "só_tô_passeando",
+    "links": [
+      "Vou dar uma chance",
+      "Não quero mesmo me envolver"
+    ],
+    "text": "Bom, eu entendo... Mas nada impede de ajudar de alguma forma na causa, não é mesmo?\n\nDe fato."
+  },
+  {
+    "name": "Não mesmo, sinto muito",
+    "slug": "não_mesmo_sinto_muito",
+    "links": [
+      "Vamos para a próxima pergunta",
+      "Vou dar uma chance"
+    ],
+    "text": "Tudo bem, eu entendo. Não é todo mundo que consegue contribuir.\n\n \nMudei de ideia."
+  },
+  {
+    "name": "(história}",
+    "slug": "história",
+    "links": [
+      "1 semana depois"
+    ],
+    "text": ""
+  },
+  {
+    "name": "1 semana depois",
+    "slug": "p_1_semana_depois",
+    "links": [],
+    "text": "(aqui é o evento canônico onde o decreto é derrutado graças à sua ajuda divulgando em São Paulo)"
+  },
+  {
+    "name": "Pode ser aqui mesmo na UFPA, no Veropesinho",
+    "slug": "pode_ser_aqui_mesmo_na_ufpa_no_veropesinho",
+    "links": [
+      "Beleza",
+      "Vamo é agora"
+    ],
+    "text": "Ah, ótimo! Bom que é perto e dá pra passar lá antes de ir embora!\n\nEntão assim que eu acabar de arrumar minhas coisas aqui te encontro lá, beleza?"
+  },
+  {
+    "name": "Pode ser outro dia lá no Ver-o-peso",
+    "slug": "pode_ser_outro_dia_lá_no_ver-o-peso",
+    "links": [
+      "1 semana depois (se optou por não perguntar se ela está pessoalmente envolvida na causa"
+    ],
+    "text": "Combinado!"
+  },
+  {
+    "name": "1 semana depois (se optou por não perguntar se ela está pessoalmente envolvida na causa",
+    "slug": "p_1_semana_depois_se_optou_por_não_perguntar_se_ela_está_pessoalmente_envolvida_",
+    "links": [],
+    "text": "(Aqui você ajudou, mas não da maneira correta - que seria divulgar em São Paulo - então você terá que continuar ajudando até tomar a escolha certa e o decreto ser derrubado)"
+  },
+  {
+    "name": "Sei sim",
+    "slug": "sei_sim",
+    "links": [
+      "Tava mentindo"
+    ],
+    "text": "Como que ele é então?"
+  },
+  {
+    "name": "Era zoas",
+    "slug": "era_zoas",
+    "links": [
+      "1 semana depois (se optou por não perguntar se ela está pessoalmente envolvida na causa"
+    ],
+    "text": "Sei, acho que brincadeira tem limite, sabe? Mas enfim, sinto muito mesmo por não poder ajudar com isso. Nos vemos por aí?"
+  },
+  {
+    "name": "Vou dar uma chance",
+    "slug": "vou_dar_uma_chance",
+    "links": [
+      "Agitar nas redes",
+      "Pix solidário para ajudar nas ocupações",
+      "Ajudar a disseminar em SP, o maior hub do Brasil"
+    ],
+    "text": "(Jussara assume uma expressão alegre)\n\nÉgua! Que bom que decidiste mudar de ideia!\n\nTemos inúmeras formas de ajudar. Você pode acompanhar os perfis das causas nas redes, já que a mídia hegemônica praticmente ignora ou diminui a causa. Por isso é importante ajudar na comunicação e combater a desinformação por aí. Você também pode fazer um pix solidário, ajudar na compra de alimetento, água e materiais para as ocupações, que contam com secretarias, com escolas, cozinha, segurança...\n\nE então, como pretede ajudar?"
+  },
+  {
+    "name": "Azar o seu",
+    "slug": "azar_o_seu",
+    "links": [
+      "⇨"
+    ],
+    "text": "Aff... Adeus!"
+  },
+  {
+    "name": "É, uma mão lava a outra",
+    "slug": "é_uma_mão_lava_a_outra",
+    "links": [
+      "Vou dar uma chance",
+      "Primeiro você"
+    ],
+    "text": "Então você vai  ajudar na causa?!\n\nTá bom!"
+  },
+  {
+    "name": "Primeiro você",
+    "slug": "primeiro_você",
+    "links": [
+      "Não sei exatamente como ele é",
+      "É um artefato mágico"
+    ],
+    "text": "Okay, vou dar uma chance. Que artefato é esse, afinal?"
+  },
+  {
+    "name": "Não quero mesmo me envolver",
+    "slug": "não_quero_mesmo_me_envolver",
+    "links": [
+      "Vamos para a próxima pergunta",
+      "Vou dar uma chance",
+      "Preciso que me empreste um artefato seu para a minha pesquisa"
+    ],
+    "text": "...\n\nTem certeza? É uma causa muito importante pra muita gente. Diria que pra todo mundo...\n\nDesculpe.  \nOkay!  \nNa verdade..."
+  },
+  {
+    "name": "Relevantes",
+    "slug": "relevantes",
+    "links": [
+      "➞"
+    ],
+    "text": "Que bom ouvir isso! Obrigado por responder o questionário! Tenha uma boa tarde!"
+  },
+  {
+    "name": "Irrelevantes",
+    "slug": "irrelevantes",
+    "links": [
+      "➞"
+    ],
+    "text": "...\n\nEntendo... Certo. Obrigado por ter participado do questionário! Tenha uma boa tarde!"
+  },
+  {
+    "name": "Isso me lembra de um certo arfefato",
+    "slug": "isso_me_lembra_de_um_certo_arfefato",
+    "links": [
+      "Um que está na sua posse",
+      "Vamos para a próxima pergunta"
+    ],
+    "text": "Que artefato?\n\n\nNada não."
+  },
+  {
+    "name": "Um que está na sua posse",
+    "slug": "um_que_está_na_sua_posse",
+    "links": [
+      "Meu professor me disse",
+      "Não posso te falar"
+    ],
+    "text": "Peraí, como sabe disso?"
+  },
+  {
+    "name": "Meu professor me disse",
+    "slug": "meu_professor_me_disse",
+    "links": [
+      "Não sei responder nenhuma dessas perguntas",
+      "Você pode simplesmente dar o artefato??"
+    ],
+    "text": "E como ele sabe disso? Ele me conhece de onde? Qual é o nome dele?"
+  },
+  {
+    "name": "Não posso te falar",
+    "slug": "não_posso_te_falar",
+    "links": [
+      "Segredo de pesquisa",
+      "Na verdade, nem eu sei"
+    ],
+    "text": "Por que não?"
+  },
+  {
+    "name": "Na verdade, nem eu sei",
+    "slug": "na_verdade_nem_eu_sei",
+    "links": [
+      "Vamos para a próxima pergunta",
+      "Você pode simplesmente dar o artefato??"
+    ],
+    "text": "Bom, parece que tu sabes pouquíssimo sobre a própria pesquisa, né?\n\nNesse caso não tem mesmo o que eu possa fazer pra te ajudar.\n\nTudo bem."
+  },
+  {
+    "name": "Não sei responder nenhuma dessas perguntas",
+    "slug": "não_sei_responder_nenhuma_dessas_perguntas",
+    "links": [
+      "Ele não me falou",
+      "Acho que nem ele mesmo sabe"
+    ],
+    "text": "Esquisito, hein? Tu pelo menos sabes como é esse artefato?"
+  },
+  {
+    "name": "Você pode simplesmente dar o artefato??",
+    "slug": "você_pode_simplesmente_dar_o_artefato",
+    "links": [
+      "Vamos para a próxima pergunta",
+      "Se vira, dá um jeito!"
+    ],
+    "text": "Não, né?! Não posso simplesmente te dar aula que nem eu nem tu sabes como é\n\nTudo bem"
+  },
+  {
+    "name": "Segredo de pesquisa",
+    "slug": "segredo_de_pesquisa",
+    "links": [
+      "Ele não me falou",
+      "Acho que nem ele mesmo sabe"
+    ],
+    "text": "Certo... E como seria exatamente esse artefato?"
+  },
+  {
+    "name": "Ele não me falou",
+    "slug": "ele_não_me_falou",
+    "links": [
+      "Também desconfiei...",
+      "Não questiono meu trabalho"
+    ],
+    "text": "Que estranho! Ele te mandar assim de tão longe buscar um artefato e nem mesmo te contar como ele se parece..."
+  },
+  {
+    "name": "Acho que nem ele mesmo sabe",
+    "slug": "acho_que_nem_ele_mesmo_sabe",
+    "links": [
+      "Pois é, vai saber",
+      "Parece que o artefato tem propriedades mágicas"
+    ],
+    "text": "Que esquisito... Ele não sabe como ele se parece e ainda assim sabe que está comigo? Aqui em Belém do Pará?"
+  },
+  {
+    "name": "Pois é, vai saber",
+    "slug": "pois_é_vai_saber",
+    "links": [
+      "Espera",
+      "Tchau, tchau"
+    ],
+    "text": "Enfim, etá ficando tarde, preciso recolher minhas coisas e ir. Mas muito obrigada mesmo por participar da minha pesquisa!"
+  },
+  {
+    "name": "Parece que o artefato tem propriedades mágicas",
+    "slug": "parece_que_o_artefato_tem_propriedades_mágicas",
+    "links": [
+      "Ele pode alterar a realidade",
+      "Não faço ideia"
+    ],
+    "text": "É mesmo? E quais seriam essas propriedades?"
+  },
+  {
+    "name": "Também desconfiei...",
+    "slug": "também_desconfiei",
+    "links": [
+      "Espera",
+      "Tchau, tchau"
+    ],
+    "text": "Hmm... Talvez seja uma boa então ficar de olho nesse seu professor. Muitas pontas soltas nessa pesquisa dele...\n\nEnfim, etá ficando tarde, preciso recolher minhas coisas e ir. Mas muito obrigada mesmo por participar da minha pesquisa!"
+  },
+  {
+    "name": "Não questiono meu trabalho",
+    "slug": "não_questiono_meu_trabalho",
+    "links": [
+      "Espera",
+      "Tchau, tchau"
+    ],
+    "text": "Bom, eu sinto muito então. Eu estou extremamente ocupada com a causa. \n\nQuem sabe em um outro momento, quano talvez tu tiveres mais informação sobre esse tal artefato, eu consiga me ajudar.\n\nJá está ficando tarde, preciso recolher minhas coisas e ir. Mas muito obrigada mesmo por participar da minha pesquisa."
+  },
+  {
+    "name": "Espera",
+    "slug": "espera",
+    "links": [
+      "⇨"
+    ],
+    "text": "Desulpe, não consigo mesmo. Quem sabe um outro dia.\n\nBeijo!"
+  },
+  {
+    "name": "Tchau, tchau",
+    "slug": "tchau_tchau",
+    "links": [
+      "⇨"
+    ],
+    "text": "Beijo! Até mais!"
+  },
+  {
+    "name": "Não sei exatamente como ele é",
+    "slug": "não_sei_exatamente_como_ele_é",
+    "links": [
+      "Vamos para a próxima pergunta",
+      "É um artefato mágico"
+    ],
+    "text": "Então como pretende que eu te ajude??\n\nVocê tem razão.  \nVocê não entende."
+  },
+  {
+    "name": "É um artefato mágico",
+    "slug": "é_um_artefato_mágico",
+    "links": [
+      "De fato",
+      "Esse pode alterar a realidade"
+    ],
+    "text": "Todos os artefatos carregam uma magia ancestral."
+  },
+  {
+    "name": "De fato",
+    "slug": "de_fato",
+    "links": [
+      "Não sei como ele se parece",
+      "Meu professor não disse"
+    ],
+    "text": "E como esse artefato se parece?"
+  },
+  {
+    "name": "Esse pode alterar a realidade",
+    "slug": "esse_pode_alterar_a_realidade",
+    "links": [
+      "Rompendo o véu entre o mundo físico e o astral",
+      "Não faço a mínima ideia"
+    ],
+    "text": "É mesmo? De que maneira esse artefato pode alterar a realidade?"
+  },
+  {
+    "name": "Não faço a mínima ideia",
+    "slug": "não_faço_a_mínima_ideia",
+    "links": [
+      "➞"
+    ],
+    "text": "Esse papo tá todo sem pé nem cabeça! Primeiro tu falas que eu tô com um artefato e tu não sabes nem como ele é. Depois fala que ele pode mudar magicamente a realidade, mas não diz como....\n\nEnfim, tô vendo que é só enrolação, Desculpe, mas não posso mais continuar aqui. Obrigada pela participação de qualquer forma."
+  },
+  {
+    "name": "Rompendo o véu entre o mundo físico e o astral",
+    "slug": "rompendo_o_véu_entre_o_mundo_físico_e_o_astral",
+    "links": [
+      "Vamos para a próxima pergunta",
+      "Sem problemas, até mais!",
+      "Quero ajudar"
+    ],
+    "text": "Impressionante! Eu amo esses assuntos místicos. Eu ficaria aqui conversando por mais tempo, mas preciso focar agora nessa pesquisa.\n\nSe tiver mais um tempinho...  \n\n agora"
+  },
+  {
+    "name": "Que tal irmos para a próxima pergunta?",
+    "slug": "que_tal_irmos_para_a_próxima_pergunta",
+    "links": [
+      "Relevantes",
+      "Irrelevantes"
+    ],
+    "text": "Claro, vamos lá: qual é o papel dos povos indígenas na sociedade de hoje na sua opinião?"
+  },
+  {
+    "name": "Beleza",
+    "slug": "beleza",
+    "links": [
+      "Veropesinho"
+    ],
+    "text": "Selou então! Daqui a pouco te encontro lá! Até daqui a pouco!"
+  },
+  {
+    "name": "Vamo é agora",
+    "slug": "vamo_é_agora",
+    "links": [
+      "Veropesinho"
+    ],
+    "text": "Calma, calma! Preciso recolher minhas coisas da pesquisa. É rapidinho. Já já te encontro lá."
+  },
+  {
+    "name": "Veropesinho",
+    "slug": "veropesinho",
+    "links": [],
+    "text": "(Aqui terá um breve diálogo onde o jogador pensa que estará avançando)"
+  },
+  {
+    "name": "Não sei como ele se parece",
+    "slug": "não_sei_como_ele_se_parece",
+    "links": [
+      "Vamos para a próxima pergunta",
+      "Podemos procurar por ele?"
+    ],
+    "text": "Bom, então aí mesmo que não consigo te ajudar.\n\nTudo bem."
+  },
+  {
+    "name": "Meu professor não disse",
+    "slug": "meu_professor_não_disse",
+    "links": [
+      "Acho que nem ele sabe",
+      "Só sigo ordens",
+      "É, estranho mesmo"
+    ],
+    "text": "Então parece que ele não confia muito em ti, né? Eu não confiaria nele também..."
+  },
+  {
+    "name": "Acho que nem ele sabe",
+    "slug": "acho_que_nem_ele_sabe",
+    "links": [
+      "Vamos para a próxima pergunta",
+      "Então tchau",
+      "Vou dar uma chance"
+    ],
+    "text": "Bom, então acho que não vejo sentido em mais nada nessa conversa\n\n então\n \n e vou ajudar"
+  },
+  {
+    "name": "Só sigo ordens",
+    "slug": "só_sigo_ordens",
+    "links": [
+      "Então tchau",
+      "Vamos para a próxima pergunta",
+      "Quero ajudar"
+    ],
+    "text": "Entendo seu posicionamento. Mas eu acho que um pouco de ceticismo nunca é demais...\n\n \n \n agora"
+  },
+  {
+    "name": "É, estranho mesmo",
+    "slug": "é_estranho_mesmo",
+    "links": [
+      "Vamos para a próxima pergunta",
+      "Vou dar uma chance",
+      "Então tchau"
+    ],
+    "text": "Pois é, eu questionaria mais ele na próxima vez que o visse... Enfim...\n\n \n e vou ajudar"
+  },
+  {
+    "name": "Podemos procurar por ele?",
+    "slug": "podemos_procurar_por_ele",
+    "links": [
+      "Vamos para a próxima pergunta",
+      "Vou dar uma chance",
+      "Então tchau"
+    ],
+    "text": "Sem chance. Não tem restando o mínimo tempinho.\n\n \nMudei de ideia.  e vou ajudar"
+  },
+  {
+    "name": "Sem problemas, até mais!",
+    "slug": "sem_problemas_até_mais",
+    "links": [
+      "➞"
+    ],
+    "text": "Beijo! Até!"
+  },
+  {
+    "name": "Ele pode alterar a realidade",
+    "slug": "ele_pode_alterar_a_realidade",
+    "links": [
+      "Vamos para a próxima pergunta",
+      "Tudo bem, até mais!"
+    ],
+    "text": "Impressionante! Eu amo esses assuntos místicos. Eu ficaria aqui conversando por mais tempo, mas preciso focar agora nessa pesquisa.\n\nSe tiver mais um tempinho..."
+  },
+  {
+    "name": "Não faço ideia",
+    "slug": "não_faço_ideia",
+    "links": [
+      "Tava brincando",
+      "Tudo bem, até mais!"
+    ],
+    "text": "Bom, não tá fazendo o mínimo sentido pra mim isso."
+  },
+  {
+    "name": "Tudo bem, até mais!",
+    "slug": "tudo_bem_até_mais",
+    "links": [
+      "⇨"
+    ],
+    "text": "Beijo! Até!"
+  },
+  {
+    "name": "Então tchau",
+    "slug": "então_tchau",
+    "links": [
+      "➞"
+    ],
+    "text": "Tá, né... Tchau, tchau!"
+  }
+]

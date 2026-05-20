@@ -23,6 +23,7 @@ screen navigation():
             textbutton _("Load") action ShowMenu("load")
             textbutton _("Preferences") action ShowMenu("preferences")
             textbutton _("About") action ShowMenu("about")
+            textbutton _("Credits") action ShowMenu("creditos")
 
             if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
                 textbutton _("Help") action ShowMenu("help")
@@ -52,6 +53,7 @@ screen navigation():
                 textbutton _("Main Menu") action MainMenu()
 
             textbutton _("About") action ShowMenu("about")
+            textbutton _("Credits") action ShowMenu("creditos")
 
             if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
                 ## Help isn't necessary or relevant to mobile devices.

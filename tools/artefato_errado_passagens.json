@@ -1,0 +1,93 @@
+[
+  {
+    "pid": 1,
+    "name": "De volta ao Lab (com o artefato errado)",
+    "slug": "de_volta_ao_lab_com_o_artefato_errado",
+    "links": [
+      "Voltando com a Cuia de Tacacá",
+      "Voltando com a Cerâmica Tapajônica",
+      "Voltando com o Muiraquitã",
+      "Voltando com o Porta Retratos",
+      "Voltando com o Prêmio de Melhor Pesquisa"
+    ],
+    "text": "(essas variações acontecerão a partir do momento em que o Professor pedir para você abrir a mochila e posicionar o artefato)"
+  },
+  {
+    "pid": 2,
+    "name": "Voltando com a Cuia de Tacacá",
+    "slug": "voltando_com_a_cuia_de_tacaca",
+    "links": [
+      "(Você posiciona e nada acontece)"
+    ],
+    "text": "Uma cuia de Tacacá? Sério? Quer dizer, sem dúvida é um obejto bem ancesral, mas duvido que tenham atribuido propriedades místicas em um objeto tão comum...\n\nDe qualquer forma vamos testá-lo. \n\nEsta aqui é uma tabuleta antiga com poderes misteriosos. Essa luz fosforescente dela fica mais forte diante do artefato. Posicione sobre ela então eu estiver com as mãos posicionadas. Proto?"
+  },
+  {
+    "pid": 3,
+    "name": "Voltando com a Cerâmica Tapajônica",
+    "slug": "voltando_com_a_ceramica_tapajonica",
+    "links": [
+      "(Você posiciona e nada acontece)"
+    ],
+    "text": "Cerâmica interessante! Bem Tapajônica e bem ancesrtral. É um forte candidato a ser nosso artefato!\n\nVmos testá-lo. \n\nEsta aqui é uma tabuleta antiga com poderes misteriosos. Essa luz fosforescente dela fica mais forte diante do artefato. Posicione sobre ela então eu estiver com as mãos posicionadas. Proto?"
+  },
+  {
+    "pid": 4,
+    "name": "Voltando com o Muiraquitã",
+    "slug": "voltando_com_o_muiraquita",
+    "links": [
+      "(Você posiciona e nada acontece)"
+    ],
+    "text": "Um Muiraquitã? Interessante, suspeitava que fosse algo relacionado à cultura Tapajônica, mas não imaginava que fossse um Muiraquitã. Sei que é muito usado como amuleto de sorte no Pará, e que só é dado de presente.\n\nAinda assim acho que talvez não seja por aí. De qualquer forma vamos testá-lo. \n\nEsta aqui é uma tabuleta antiga com poderes misteriosos. Essa luz fosforescente dela fica mais forte diante do artefato. Posicione sobre ela então eu estiver com as mãos posicionadas. Proto?"
+  },
+  {
+    "pid": 5,
+    "name": "Voltando com o Porta Retratos",
+    "slug": "voltando_com_o_porta_retratos",
+    "links": [
+      "(Você posiciona e nada acontece)"
+    ],
+    "text": "Um porta-retratos de família da Jussara? Okay, então a associação que você fez aqui de ancestralidade do artefato com a figura histórica que sua avó representa para ela;\n\nAinda assim acho que talvez não seja por aí. De qualquer forma vamos testá-lo. \n\nEsta aqui é uma tabuleta antiga com poderes misteriosos. Essa luz fosforescente dela fica mais forte diante do artefato. Posicione sobre ela então eu estiver com as mãos posicionadas. Proto?"
+  },
+  {
+    "pid": 6,
+    "name": "Voltando com o Prêmio de Melhor Pesquisa",
+    "slug": "voltando_com_o_premio_de_melhor_pesquisa",
+    "links": [
+      "Este é o artefato"
+    ],
+    "text": "O que é isso? Um prêmio de melhor pesquisa da Jussara? Mas e o artefato?"
+  },
+  {
+    "pid": 7,
+    "name": "Este é o artefato",
+    "slug": "este_e_o_artefato",
+    "links": [
+      "(Você posiciona e nada acontece)"
+    ],
+    "text": "Acho difícil.... Apesar desses grafismos na moldura, acho difícil que esse objeto seja assim tão ancestral.\n\nAinda assim acho que talvez não seja por aí. De qualquer forma vamos testá-lo. \n\nEsta aqui é uma tabuleta antiga com poderes misteriosos. Essa luz fosforescente dela fica mais forte diante do artefato. Posicione sobre ela então eu estiver com as mãos posicionadas. Proto?"
+  },
+  {
+    "pid": 8,
+    "name": "(Você posiciona e nada acontece)",
+    "slug": "voce_posiciona_e_nada_acontece",
+    "links": [
+      "Tá bem...",
+      "Nem a pau"
+    ],
+    "text": "Hmm... apesar de a tabuleta ter acendido na presença do objeto, acredito que foi porque ele está ligado com a portadora do artefato real.\n\nEu sinto muito, mas você terá que voltar lá e procurar novamente pelo objeto."
+  },
+  {
+    "pid": 9,
+    "name": "Tá bem...",
+    "slug": "ta_bem",
+    "links": [],
+    "text": "(embarque de volta)"
+  },
+  {
+    "pid": 10,
+    "name": "Nem a pau",
+    "slug": "nem_a_pau",
+    "links": [],
+    "text": "Tudo bem, iremos mandar outro bolsista.\n\nA propósito, pode arrumar suas coisas..."
+  }
+]

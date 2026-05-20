@@ -41,6 +41,10 @@ style pnc_image_button:
 
 define diss = {"screens" : Dissolve(0.15)} # this allows the textbox to be hidden and shown without any pause
 
+# Demo rooms (plugin example only; replace with real backgrounds if you use left/right_buttons).
+image room_left = Solid("#2a2a3a")
+image room_right = Solid("#3a2a2a")
+
 
 # This label handles showing the screen to the player.
 label pnc_loop:
@@ -100,7 +104,7 @@ label left_door:
 
 label escape:
     "You open the door."
-    jump end
+    return
 
 # The following is an example of interactions that move the player or change perspective.
 # They change the background and set the room variable so that the correct set of buttons is displayed

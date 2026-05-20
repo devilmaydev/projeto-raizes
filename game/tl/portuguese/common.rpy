@@ -15,6 +15,21 @@ translate portuguese strings:
     old "About"
     new "Sobre"
 
+    old "Credits"
+    new "Créditos"
+
+    old "Programming: Fábio Ferro Jr"
+    new "Programação: Fábio Ferro Jr"
+
+    old "Art and Narrative Design: Thadeu M. Fidélis"
+    new "Arte e Narrative Design: Thadeu M. Fidélis"
+
+    old "Music: Leonardo Venturieri"
+    new "Música: Leonardo Venturieri"
+
+    old "Não foi encontrado nenhum checkpoint. A recomeçar em Belém..."
+    new "Não foi encontrado nenhum checkpoint. A recomeçar em Belém..."
+
     old "Help"
     new "Ajuda"
 

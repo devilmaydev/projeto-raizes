@@ -1,5 +1,5 @@
 ## =============================================================================
-## belem_00 — Ponto de entrada (labels chamados por `script.rpy`)
+## Ponto de entrada Belém (labels chamados por script.rpy e sala_professor)
 ## =============================================================================
 ## O Ren'Py carrega todos os .rpy; estes `call` encaminham a execução.
 

@@ -1,4 +1,4 @@
-## == Jussara 05 — Canto da Jussara (Point n Click) ==
+## Módulo — Canto da Jussara (point-and-click)
 ## Integrado com game/libs/point_and_click/point_and_click.rpy
 
 image bg canto_jussara = im.Scale("images/Cantinho da Jussara (Sem os Assets).jpg", 1920, 1080)
@@ -30,6 +30,19 @@ screen pnc_objeto_detalhe(img_path, zoom=1.0):
     add Transform(img_path, xalign=0.5, yalign=0.5, zoom=zoom)
     key "dismiss" action Return()
 
+screen pnc_jussara_canto_screen():
+    style_prefix "pnc"
+    for i in jussara_canto_buttons:
+        if (i[3] is None) or (eval(i[3])):
+            if isinstance(i[0], (tuple, list)):
+                imagebutton idle i[0][0] hover i[0][1] pos i[1] action Return(i[2])
+            else:
+                imagebutton auto "images/point_and_click/" + str(i[0]) + "_%s.png" pos i[1] action Return(i[2])
+    textbutton _("Terminar busca") action Return("pnc_jussara_concluir_label"):
+        style "navigation_button"
+        xalign 0.98
+        yalign 0.98
+
 define jussara_canto_buttons = [
     # Quadro (superior esquerdo)
     (("pnc_quadro_idle", "pnc_quadro_hover"), (271, 238), "pnc_jussara_item_01_label", None),
@@ -47,6 +60,9 @@ define jussara_canto_buttons = [
 
 
 label canto_jussara_point_n_click:
+    $ jussara_checkpoint("canto_jussara")
+    $ artefato_id = None
+    $ mochila_com_artefato = False
     scene bg canto_jussara_com_assets with dissolve
     show jussara idle at jussara_show
     with dissolve
@@ -62,9 +78,28 @@ label canto_jussara_point_n_click:
     $ pnc_flags["jussara_item_04"] = False
     $ pnc_flags["jussara_item_05"] = False
     $ pnc_flags["jussara_item_06"] = False
-    $ current_room = "jussara_canto"
-    jump pnc_loop
+    jump canto_pnc_loop
 
+label canto_pnc_loop:
+    $ quick_menu = False
+    window hide diss
+    call screen pnc_jussara_canto_screen
+    window show diss
+    $ quick_menu = True
+    jump expression _return
+
+label pnc_jussara_concluir_label:
+    jump pnc_jussara_pos_clique_sair
+
+label pnc_jussara_pos_clique_sair:
+    scene bg canto_jussara_com_assets
+    show jussara idle at jussara_show
+    with dissolve
+    if artefato_id is None:
+        j "Procurou bastante? Se quiser, pode levar algo daqui para a viagem — escolha o que faz mais sentido."
+    else:
+        j "Pronto! Boa viagem com o que você escolheu levar."
+    return
 
 label pnc_jussara_item_01_label:
     scene bg canto_jussara_com_assets
@@ -74,7 +109,10 @@ label pnc_jussara_item_01_label:
     j "É esse o artefato que você procura?"
 
     menu:
-        "Sim":
+        "Sim — quero levar este":
+            hide detalhe_objeto
+            jump pnc_jussara_pegar_premio
+        "Acho que seja este":
             j "Não, esse não é o artefato que você procura."
         "Não":
             pass
@@ -91,7 +129,10 @@ label pnc_jussara_item_02_label:
     j "É esse o artefato que você procura?"
 
     menu:
-        "Sim":
+        "Sim — quero levar este":
+            hide detalhe_objeto
+            jump pnc_jussara_pegar_tapajonica
+        "Acho que seja este":
             j "Não, esse não é o artefato que você procura."
         "Não":
             pass
@@ -126,7 +167,10 @@ label pnc_jussara_item_04_label:
     j "É esse o artefato que você procura?"
 
     menu:
-        "Sim":
+        "Sim — quero levar este":
+            hide detalhe_objeto
+            jump pnc_jussara_pegar_cuia
+        "Acho que seja este":
             j "Não, esse não é o artefato que você procura."
         "Não":
             pass
@@ -143,7 +187,10 @@ label pnc_jussara_item_05_label:
     j "É esse o artefato que você procura?"
 
     menu:
-        "Sim":
+        "Sim — quero levar este":
+            hide detalhe_objeto
+            jump pnc_jussara_pegar_muiraquita
+        "Acho que seja este":
             j "Não, esse não é o artefato que você procura."
         "Não":
             pass
@@ -159,13 +206,51 @@ label pnc_jussara_item_06_label:
     j "É esse o artefato que você procura?"
 
     menu:
-        "Sim":
+        "Sim — quero levar este":
+            hide detalhe_objeto
+            jump pnc_jussara_pegar_retrato
+        "Acho que seja este":
             j "Não, esse não é o artefato que você procura."
         "Não":
             pass
     hide detalhe_objeto
     jump pnc_jussara_pos_clique
 
+
+label pnc_jussara_pegar_premio:
+    $ artefato_id = "premio"
+    $ mochila_com_artefato = True
+    show jussara idle at jussara_show
+    j "Não sei se é o objeto da sua pesquisa, mas pode levar o prêmio se precisar. Só me promete zelar por ele."
+    return
+
+label pnc_jussara_pegar_tapajonica:
+    $ artefato_id = "tapajonica"
+    $ mochila_com_artefato = True
+    show jussara idle at jussara_show
+    j "Essa escultura é antiga demais na família... mas se for para a pesquisa, confio em você. Leva com cuidado."
+    return
+
+label pnc_jussara_pegar_cuia:
+    $ artefato_id = "cuia"
+    $ mochila_com_artefato = True
+    show jussara idle at jussara_show
+    j "A cuia? Pode levar, mas duvido que seja o tal artefato mágico que você procura!"
+    return
+
+label pnc_jussara_pegar_muiraquita:
+    $ artefato_id = "muiraquita"
+    $ mochila_com_artefato = True
+    show jussara idle at jussara_show
+    j "Muiraquitã é amuleto de presente... mas te empresto o meu com carinho. Traga de volta, viu?"
+    return
+
+label pnc_jussara_pegar_retrato:
+    $ artefato_id = "retrato"
+    $ mochila_com_artefato = True
+    show jussara idle at jussara_show
+    j "O retrato da vovó? Só se for com o maior respeito. Não é esse artefato estranho, mas pode levar para mostrar ao professor."
+    return
 
 label pnc_jussara_urna_infelizmente:
     show expression Transform("pnc_det_urna", xalign=0.78, yalign=0.5, zoom=0.9) as detalhe_objeto
@@ -178,6 +263,8 @@ label pnc_jussara_urna_infelizmente:
             j "Bom, como uma estudante e pesquisadora, por mais envolvida que eu esteja com o objeto, não posso empacar o avanço de uma causa nobre. Quero que me prometa que voltará são e salvo."
             n "[[Missão cumprida]]"
             hide detalhe_objeto
+            $ artefato_id = "urna"
+            $ mochila_com_artefato = True
             return
 
         "Eu realmente não sei o que será feito":
@@ -191,6 +278,8 @@ label pnc_jussara_urna_infelizmente:
             j "Então faça, faça por nós. Faça pelo meu povo, que também é seu povo, povo de todo brasileiro."
             n "[[Missão cumprida]]"
             hide detalhe_objeto
+            $ artefato_id = "urna"
+            $ mochila_com_artefato = True
             return
 
 
@@ -203,9 +292,10 @@ label pnc_jussara_urna_forcar:
     j "E quando se trata de coletivo, acho que o homem \"civilizado\" (entre muitas aspas) tem muita dificuldade em assimilar o seu papel diante dele."
     j "Mais uma vez obrigada! Mas você não vai falar comigo assim. Adeus!"
     hide detalhe_objeto
+    $ canto_exit_urna_recusada = True
     return
 
 
 label pnc_jussara_pos_clique:
     scene bg canto_jussara
-    jump pnc_loop
+    jump canto_pnc_loop
